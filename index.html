@@ -283,14 +283,30 @@
         </div>
     </header>
     <main class="main">
-        <!-- <section class="intro">
+        <section class="intro">
             <div class="intro-inner">
                 <div class="intro-item">
-                    <h1>НАРКОЛОГИЧЕСКАЯ КЛИНИКА В САНКТ-ПЕТЕРБУРГЕ</h1>
-                    <p>Медкомиссии, профосмотры, анализы и выдача медицинских справок в одном месте. Прием
+                    <h1 class="intro-item__title">НАРКОЛОГИЧЕСКАЯ КЛИНИКА В САНКТ-ПЕТЕРБУРГЕ</h1>
+                    <p class="intro-item__descr">Медкомиссии, профосмотры, анализы и выдача медицинских справок в одном
+                        месте. Прием
                         специалистов.
                         Делаем тест на COVID-19</p>
-                    <a href="#" class="btn__standart btn--white btn--intro">Перейти к услугам</a>
+                    <ul class="intro-item__list">
+                        <li class="intro-item__li">
+                            <a href="" class="intro-item__link">Срочный вывод из запоя</a>
+                        </li>
+                        <li class="intro-item__li">
+                            <a href="" class="intro-item__link">Лечение наркомании</a>
+                        </li>
+                        <li class="intro-item__li">
+                            <a href="" class="intro-item__link">Кодирование от алкоголизма</a>
+                        </li>
+                        <li class="intro-item__li">
+                            <a href="" class="intro-item__link">Лечение психических расстройств</a>
+                        </li>
+                    </ul>
+                    <button class="intro-item__btn btn__standart btn--white btn--intro open-popup-second">Получить
+                        помощь</button>
                 </div>
                 <div class="intro-item intro-item--bg">
                     <form action="/" method="post" class="intro__form">
@@ -303,260 +319,17 @@
                             <input type="tel" class="form--phone" required />
                             <span class="floating-label">Телефон</span>
                         </label>
-                        <button class="btn__standart gradient_btn ">Оставить заявку</button>
-                        <div class="form-personal">
-                            <label>
-                                <input type="checkbox" value="checked" /> Нажимая кнопку “Оставить заявку” вы
-                                соглашаетесь
-                                с политикой конфиденциальности данного сайта
-                            </label>
+                        <button class="intro__form-btn btn__standart gradient_btn ">Оставить заявку</button>
+                        <div class="form-policy">
+                            Отправляя анонимную заявку, вы соглашаетесь
+                            с <a href="#">политикой конфиденциальности</a>
                         </div>
                     </form>
                     <img src="assets/img/intro/woman.png" alt="woman">
                 </div>
             </div>
-        </section> -->
-        <!-- <section class="second element-animation section-margin">
-            <div class="container">
-                <div class="second-inner">
-                    <h2>Уважаемые жители Санкт-Петербурга!</h2>
-                    <p>С радостью сообщаем Вам об открытии нашего медицинского Центра Кристалл в невском районе. Мы
-                        оказываем полный спектра медицинских услуг. Приёмы квалифицированных специалистов,
-                        диагностика,
-                        лабораторное обследование, обследование на коронавирусную инфекцию, все виды медицинских
-                        комиссий! Все виды медицинских комиссий, услуг по лечению алкоголизма, наркомании и других
-                        зависимостей, как в клинике, так и на дому. Запись на консультацию по телефону: <a href="#">+7
-                            (958) 408-89-86</a></p>
-                </div>
-            </div>
-        </section> -->
-        <!-- <section class="works section-margin">
-            <div class="container">
-                <h2 class="section-title">Услуги</h2>
-                <h2 class="section-subtitle">Основные направления</h2>
-                <div class="works-inner">
-                    <a href="#" class="works-item">
-                        <h3 class="works-text">Наркомания</h3>
-                        <img src="assets/img/works/nark.jpg" alt="Наркомания">
-                    </a>
-                    <a href="#" class="works-item">
-                        <h3 class="works-text">Игромания</h3>
-                        <img src="assets/img/works/igr.jpg" alt="Игромания">
-                    </a>
-                    <a href="#" class="works-item">
-                        <h3 class="works-text">Созависимость</h3>
-                        <img src="assets/img/works/soz.jpg" alt="Созависимость">
-                    </a>
-                    <a href="#" class="works-item">
-                        <h3 class="works-text">Алкоголизм</h3>
-                        <img src="assets/img/works/alk.jpg" alt="Алкоголизм">
-                    </a>
-                    <a href="#" class="works-item">
-                        <h3 class="works-text">Табакокурение</h3>
-                        <img src="assets/img/works/tabak.jpg" alt="Табакокурение">
-                    </a>
-                    <a href="#" class="works-item">
-                        <h3 class="works-text">Психиатрия</h3>
-                        <img src="assets/img/works/psih.jpg" alt="Психиатрия">
-                    </a>
-
-                </div>
-            </div>
-        </section> -->
-        <!-- <section class="price section-margin element-animation">
-            <div class="container">
-                <h2 class="section-title">Прайс</h2>
-                <h2 class="section-subtitle">Цены на наши услуги</h2>
-                <div class="price-inner">
-                    <div class="price-item">
-                        <p>Обращаем Ваше внимание на то, что данный интернет-сайт носит исключительно информационный
-                            характер и ни при каких условиях не является публичной офертой, определяемой положениями
-                            Статьи 437 (2) Гражданского кодекса Российской Федерации. Стоимость услуг уточняйте по
-                            телефону, указанному на сайте.</p>
-                        <a href="lechenie.html" class="header__bottom-item--btn btn__standart btn--opacity">
-                            Список всех услуг
-                        </a>
-                    </div>
-                    <ul class="panel-group">
-                        <li class="panel-title">
-                            <div>
-                                <div>
-                                    <span>Услуги по лечению алкоголизма</span>
-                                    <span>От 2500 ₽ <a href="#">Заказать</a></span>
-                                </div>
-                                <button><span class="open-popup-thrid"
-                                        id="Услуги по лечению алкоголизма">Заказать</span>
-                                    <picture>
-                                        <source srcset="assets/img/icon/popup.svg" type="image/svg+xml">
-                                        <img src="assets/img/icon/popup.png" alt="popup">
-                                    </picture>
-                                </button>
-                            </div>
-                        </li>
-                        <li class="panel-body">
-                            <ul>
-                                <li><span>В стационаре</span> <span>от 5000 ₽</span> <a class="open-popup-thrid"
-                                        id="В стационаре">Заказать</a></li>
-                                <li><span>Реабилитация алкоголизма</span><span>от 5000 ₽</span> <a
-                                        class="open-popup-thrid" id="Реабилитация алкоголизма">Заказать</a></li>
-                                <li><span>Анонимное лечение алкоголизма</span><span>от 5000 ₽</span> <a
-                                        class="open-popup-thrid" id="Анонимное лечение алкоголизма">Заказать</a>
-                                </li>
-                                <li><span>Лечение зависимости от пива</span><span>от 5000 ₽</span> <a
-                                        class="open-popup-thrid" id="ечение зависимости от пива">Заказать</a></li>
-                                <li><span>Лечение женской алкозависимости</span><span>от 5000 ₽</span> <a
-                                        class="open-popup-thrid" id="Лечение женской алкозависимости">Заказать</a>
-                                </li>
-                                <li><span>Подростковый алкоголизм</span><span>от 5000 ₽</span> <a
-                                        class="open-popup-thrid" id="Подростковый алкоголизм">Заказать</a></li>
-                                <li><span>Лечение алкоголизма на дому</span><span>от 5000 ₽</span> <a
-                                        class="open-popup-thrid" id="Лечение алкоголизма на дому">Заказать</a></li>
-                                <li><span>Хронический алкоголизм</span><span>от 5000 ₽</span> <a
-                                        class="open-popup-thrid" id="Хронический алкоголизм">Заказать</a></li>
-                                <li><span>Зависимости у пожилых</span><span>от 5000 ₽</span> <a class="open-popup-thrid"
-                                        id="Зависимости у пожилых">Заказать</a></li>
-                                <li><span>Эффективная помощь при алкозависимости</span><span>от 5000 ₽</span> <a
-                                        class="open-popup-thrid"
-                                        id="Эффективная помощь при алкозависимости">Заказать</a></li>
-                                <li><span>Бесплатное лечение алкоголизма</span><span>от 5000 ₽</span> <a
-                                        class="open-popup-thrid" id="Бесплатное лечение алкоголизма">Заказать</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="panel-title">
-
-                            <div>
-                                <div>
-
-                                    <span>Услуги по лечению наркомании</span>
-                                    <span>От 3500 ₽ <a href="#">Заказать</a></span>
-                                </div>
-                                <button><span class="open-popup-thrid" id="Услуги по лечению наркомании">Заказать</span>
-                                    <picture>
-                                        <source srcset="assets/img/icon/popup.svg" type="image/svg+xml">
-                                        <img src="assets/img/icon/popup.png" alt="popup">
-                                    </picture>
-                                </button>
-
-                            </div>
-
-
-                        </li>
-                        <li class="panel-body">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque consequuntur, officiis
-                            magni
-                            harum hic officia esse qui earum dolor error minima quia placeat laborum provident
-                            aspernatur alias voluptatem unde voluptate.
-                        </li>
-                        <li class="panel-title">
-
-                            <div>
-                                <div>
-
-                                    <span>Услуги по выводу из запоя</span>
-                                    <span>От 2500 ₽ <a href="#">Заказать</a></span>
-                                </div>
-                                <button><span class="open-popup-thrid" id="Услуги по выводу из запоя">Заказать</span>
-                                    <picture>
-                                        <source srcset="assets/img/icon/popup.svg" type="image/svg+xml">
-                                        <img src="assets/img/icon/popup.png" alt="popup">
-                                    </picture>
-                                </button>
-
-                            </div>
-
-
-                        </li>
-                        <li class="panel-body">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque consequuntur, officiis
-                            magni
-                            harum hic officia esse qui earum dolor error minima quia placeat laborum provident
-                            aspernatur alias voluptatem unde voluptate.
-                        </li>
-
-                        <li class="panel-title">
-
-                            <div>
-                                <div>
-
-                                    <span>Помощь</span>
-                                    <span>От 4500 ₽ <a href="#">Заказать</a></span>
-                                </div>
-                                <button><span class="open-popup-thrid" id="Помощь">Заказать</span>
-                                    <picture>
-                                        <source srcset="assets/img/icon/popup.svg" type="image/svg+xml">
-                                        <img src="assets/img/icon/popup.png" alt="popup">
-                                    </picture>
-                                </button>
-
-                            </div>
-
-
-                        </li>
-                        <li class="panel-body">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque consequuntur, officiis
-                            magni
-                            harum hic officia esse qui earum dolor error minima quia placeat laborum provident
-                            aspernatur alias voluptatem unde voluptate.
-                        </li>
-                        <li class="panel-title">
-
-                            <div>
-                                <div>
-
-                                    <span>Кодирование</span>
-                                    <span>От 2500 ₽ <a href="#">Заказать</a></span>
-                                </div>
-                                <button><span class="open-popup-thrid" id="Кодирование">Заказать</span>
-                                    <picture>
-                                        <source srcset="assets/img/icon/popup.svg" type="image/svg+xml">
-                                        <img src="assets/img/icon/popup.png" alt="popup">
-                                    </picture>
-                                </button>
-
-                            </div>
-
-
-                        </li>
-                        <li class="panel-body">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque consequuntur, officiis
-                            magni
-                            harum hic officia esse qui earum dolor error minima quia placeat laborum provident
-                            aspernatur alias voluptatem unde voluptate.
-                        </li>
-                        <li class="panel-title">
-
-                            <div>
-                                <div>
-
-                                    <span>Зависимости</span>
-                                    <span>От 5500 ₽ <a href="#">Заказать</a></span>
-                                </div>
-                                <button><span class="open-popup-thrid" id="Зависимости">Заказать</span>
-                                    <picture>
-                                        <source srcset="assets/img/icon/popup.svg" type="image/svg+xml">
-                                        <img src="assets/img/icon/popup.png" alt="popup">
-                                    </picture>
-                                </button>
-
-                            </div>
-
-
-                        </li>
-                        <li class="panel-body">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque consequuntur, officiis
-                            magni
-                            harum hic officia esse qui earum dolor error minima quia placeat laborum provident
-                            aspernatur alias voluptatem unde voluptate.
-                        </li>
-
-
-                    </ul>
-
-                </div>
-            </div>
-        </section> -->
-        <!-- <section class="stage section-margin element-animation">
+        </section>
+        <section class="stage section-margin element-animation">
             <div class="container">
                 <h2 class="section-title">6 шагов</h2>
                 <h2 class="section-subtitle">этапы оказания помощи</h2>
@@ -623,8 +396,84 @@
                     </div>
                 </div>
             </div>
-        </section> -->
-        <!-- <section class="why__are__we section-margin">
+        </section>
+        <section class="second element-animation section-margin">
+            <div class="container">
+                <div class="second-inner">
+                    <h2>Уважаемые жители Санкт-Петербурга!</h2>
+                    <p>С радостью сообщаем Вам об открытии нашего медицинского Центра Кристалл в невском районе. Мы
+                        оказываем полный спектра медицинских услуг. Приёмы квалифицированных специалистов,
+                        диагностика,
+                        лабораторное обследование, обследование на коронавирусную инфекцию, все виды медицинских
+                        комиссий! Все виды медицинских комиссий, услуг по лечению алкоголизма, наркомании и других
+                        зависимостей, как в клинике, так и на дому. Запись на консультацию по телефону: <a href="#">+7
+                            (958) 408-89-86</a></p>
+                </div>
+            </div>
+        </section>
+        <section class="works section-margin">
+            <div class="container">
+                <h2 class="section-title">Услуги</h2>
+                <h2 class="section-subtitle">Основные направления</h2>
+                <div class="works-inner">
+                    <a href="#" class="works-item">
+                        <div class="works-item__wpapper">
+                            <h3 class="works-text">Наркомания</h3>
+                            <div class="works-item__icon-wrapper">
+                                <img src="assets/img/new/work-icon.svg" alt="" class="works-item__icon">
+                            </div>
+                        </div>
+                        <img class="works-item__preview" src="assets/img/works/nark.jpg" alt="Наркомания">
+                    </a>
+                    <a href="#" class="works-item">
+                        <div class="works-item__wpapper">
+                            <h3 class="works-text">Игромания</h3>
+                            <div class="works-item__icon-wrapper">
+                                <img src="assets/img/new/work-icon.svg" alt="" class="works-item__icon">
+                            </div>
+                        </div>
+                        <img class="works-item__preview" src="assets/img/works/igr.jpg" alt="Игромания">
+                    </a>
+                    <a href="#" class="works-item">
+                        <div class="works-item__wpapper">
+                            <h3 class="works-text">Созависимость</h3>
+                            <div class="works-item__icon-wrapper">
+                                <img src="assets/img/new/work-icon.svg" alt="" class="works-item__icon">
+                            </div>
+                        </div>
+                        <img class="works-item__preview" src="assets/img/works/soz.jpg" alt="Созависимость">
+                    </a>
+                    <a href="#" class="works-item">
+                        <div class="works-item__wpapper">
+                            <h3 class="works-text">Алкоголизм</h3>
+                            <div class="works-item__icon-wrapper">
+                                <img src="assets/img/new/work-icon.svg" alt="" class="works-item__icon">
+                            </div>
+                        </div>
+                        <img class="works-item__preview" src="assets/img/works/alk.jpg" alt="Алкоголизм">
+                    </a>
+                    <a href="#" class="works-item">
+                        <div class="works-item__wpapper">
+                            <h3 class="works-text">Табакокурение</h3>
+                            <div class="works-item__icon-wrapper">
+                                <img src="assets/img/new/work-icon.svg" alt="" class="works-item__icon">
+                            </div>
+                        </div>
+                        <img class="works-item__preview" src="assets/img/works/tabak.jpg" alt="Табакокурение">
+                    </a>
+                    <a href="#" class="works-item">
+                        <div class="works-item__wpapper">
+                            <h3 class="works-text">Психиатрия</h3>
+                            <div class="works-item__icon-wrapper">
+                                <img src="assets/img/new/work-icon.svg" alt="" class="works-item__icon">
+                            </div>
+                        </div>
+                        <img class="works-item__preview" src="assets/img/works/psih.jpg" alt="Психиатрия">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="why__are__we section-margin">
             <div class="container">
                 <h2 class="section-title">преимущества</h2>
                 <h2 class="section-subtitle">Почему выбирают нас</h2>
@@ -726,38 +575,298 @@
                     </div>
                 </div>
             </div>
-        </section> -->
-        <!-- <section class="form__center element-animation section-margin">
+        </section>
+        <section class="price section-margin element-animation">
             <div class="container">
-                <form action="/" method="post" class="intro__form form__center-inner">
-                    <h3 class="form__center-inner--title">Оставьте заявку и получите первичную консультацию
-                        бесплатно
-                    </h3>
-                    <h4 class="form__center-inner--subtitle">Позвоните сейчас и получите профессиональную
-                        консультацию
-                        бесплатно. Мы не навязываем услуги. Все звонки анонимны</h4>
-                    <div class="form__center-item">
-
-                        <label class="user-input-wrp">
-                            <input type="text" class="form--name" placeholder="Ваше имя" required />
-                        </label>
-                        <label class="user-input-wrp">
-                            <input type="tel" class="form--phone" placeholder="Телефон" required />
-                        </label>
-                        <button class="gradient_btn btn__standart">Вызвать врача</button>
+                <h2 class="section-title">Прайс</h2>
+                <h2 class="section-subtitle">Цены на наши услуги</h2>
+                <div class="price-inner">
+                    <div class="price-item">
+                        <p>Обращаем Ваше внимание на то, что данный интернет-сайт носит исключительно информационный
+                            характер и ни при каких условиях не является публичной офертой, определяемой положениями
+                            Статьи 437 (2) Гражданского кодекса Российской Федерации. Стоимость услуг уточняйте по
+                            телефону, указанному на сайте.</p>
+                        <a href="lechenie.html" class="price__btn header__bottom-item--btn btn__standart btn--opacity">
+                            Список всех услуг
+                        </a>
                     </div>
-                    <div class="form-personal">
-                        <label>
-                            <input type="checkbox" value="checked" /> <span>
-                                Нажимая кнопку “Оставить заявку” вы соглашаетесь
-                                с политикой конфиденциальности данного сайта
-                            </span>
-                        </label>
-                    </div>
-                </form>
+                    <ul class="panel-group">
+                        <li class="panel-title">
+                            <div>
+                                <div>
+                                    <span>Услуги по лечению алкоголизма</span>
+                                    <span>От 2500 ₽ </span>
+                                </div>
+                                <button><span class="open-popup-thrid"
+                                        id="Услуги по лечению алкоголизма">Заказать</span>
+                                    <picture>
+                                        <source srcset="assets/img/icon/popup.svg" type="image/svg+xml">
+                                        <img src="assets/img/icon/popup.png" alt="popup">
+                                    </picture>
+                                </button>
+                            </div>
+                        </li>
+                        <li class="panel-body">
+                            <ul>
+                                <li><span>В стационаре</span> <span>от 5000 ₽</span> <a class="open-popup-thrid"
+                                        id="В стационаре">Заказать</a></li>
+                                <li><span>Реабилитация алкоголизма</span><span>от 5000 ₽</span> <a
+                                        class="open-popup-thrid" id="Реабилитация алкоголизма">Заказать</a></li>
+                                <li><span>Анонимное лечение алкоголизма</span><span>от 5000 ₽</span> <a
+                                        class="open-popup-thrid" id="Анонимное лечение алкоголизма">Заказать</a>
+                                </li>
+                                <li><span>Лечение зависимости от пива</span><span>от 5000 ₽</span> <a
+                                        class="open-popup-thrid" id="ечение зависимости от пива">Заказать</a></li>
+                                <li><span>Лечение женской алкозависимости</span><span>от 5000 ₽</span> <a
+                                        class="open-popup-thrid" id="Лечение женской алкозависимости">Заказать</a>
+                                </li>
+                                <li><span>Подростковый алкоголизм</span><span>от 5000 ₽</span> <a
+                                        class="open-popup-thrid" id="Подростковый алкоголизм">Заказать</a></li>
+                                <li><span>Лечение алкоголизма на дому</span><span>от 5000 ₽</span> <a
+                                        class="open-popup-thrid" id="Лечение алкоголизма на дому">Заказать</a></li>
+                                <li><span>Хронический алкоголизм</span><span>от 5000 ₽</span> <a
+                                        class="open-popup-thrid" id="Хронический алкоголизм">Заказать</a></li>
+                                <li><span>Зависимости у пожилых</span><span>от 5000 ₽</span> <a class="open-popup-thrid"
+                                        id="Зависимости у пожилых">Заказать</a></li>
+                                <li><span>Эффективная помощь при алкозависимости</span><span>от 5000 ₽</span> <a
+                                        class="open-popup-thrid"
+                                        id="Эффективная помощь при алкозависимости">Заказать</a></li>
+                                <li><span>Бесплатное лечение алкоголизма</span><span>от 5000 ₽</span> <a
+                                        class="open-popup-thrid" id="Бесплатное лечение алкоголизма">Заказать</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="panel-title">
+                            <div>
+                                <div>
+                                    <span>Услуги по лечению наркомании</span>
+                                    <span>От 3500 ₽ </span>
+                                </div>
+                                <button><span class="open-popup-thrid" id="Услуги по лечению наркомании">Заказать</span>
+                                    <picture>
+                                        <source srcset="assets/img/icon/popup.svg" type="image/svg+xml">
+                                        <img src="assets/img/icon/popup.png" alt="popup">
+                                    </picture>
+                                </button>
+                            </div>
+                        </li>
+                        <li class="panel-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque consequuntur, officiis
+                            magni
+                            harum hic officia esse qui earum dolor error minima quia placeat laborum provident
+                            aspernatur alias voluptatem unde voluptate.
+                        </li>
+                        <li class="panel-title">
+                            <div>
+                                <div>
+                                    <span>Услуги по выводу из запоя</span>
+                                    <span>От 2500 ₽ </span>
+                                </div>
+                                <button><span class="open-popup-thrid" id="Услуги по выводу из запоя">Заказать</span>
+                                    <picture>
+                                        <source srcset="assets/img/icon/popup.svg" type="image/svg+xml">
+                                        <img src="assets/img/icon/popup.png" alt="popup">
+                                    </picture>
+                                </button>
+                            </div>
+                        </li>
+                        <li class="panel-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque consequuntur, officiis
+                            magni
+                            harum hic officia esse qui earum dolor error minima quia placeat laborum provident
+                            aspernatur alias voluptatem unde voluptate.
+                        </li>
+                        <li class="panel-title">
+                            <div>
+                                <div>
+                                    <span>Помощь</span>
+                                    <span>От 4500 ₽ </span>
+                                </div>
+                                <button><span class="open-popup-thrid" id="Помощь">Заказать</span>
+                                    <picture>
+                                        <source srcset="assets/img/icon/popup.svg" type="image/svg+xml">
+                                        <img src="assets/img/icon/popup.png" alt="popup">
+                                    </picture>
+                                </button>
+                            </div>
+                        </li>
+                        <li class="panel-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque consequuntur, officiis
+                            magni
+                            harum hic officia esse qui earum dolor error minima quia placeat laborum provident
+                            aspernatur alias voluptatem unde voluptate.
+                        </li>
+                        <li class="panel-title">
+                            <div>
+                                <div>
+                                    <span>Кодирование</span>
+                                    <span>От 2500 ₽ </span>
+                                </div>
+                                <button><span class="open-popup-thrid" id="Кодирование">Заказать</span>
+                                    <picture>
+                                        <source srcset="assets/img/icon/popup.svg" type="image/svg+xml">
+                                        <img src="assets/img/icon/popup.png" alt="popup">
+                                    </picture>
+                                </button>
+                            </div>
+                        </li>
+                        <li class="panel-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque consequuntur, officiis
+                            magni
+                            harum hic officia esse qui earum dolor error minima quia placeat laborum provident
+                            aspernatur alias voluptatem unde voluptate.
+                        </li>
+                        <li class="panel-title">
+                            <div>
+                                <div>
+                                    <span>Зависимости</span>
+                                    <span>От 5500 ₽ </span>
+                                </div>
+                                <button><span class="open-popup-thrid" id="Зависимости">Заказать</span>
+                                    <picture>
+                                        <source srcset="assets/img/icon/popup.svg" type="image/svg+xml">
+                                        <img src="assets/img/icon/popup.png" alt="popup">
+                                    </picture>
+                                </button>
+                            </div>
+                        </li>
+                        <li class="panel-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque consequuntur, officiis
+                            magni
+                            harum hic officia esse qui earum dolor error minima quia placeat laborum provident
+                            aspernatur alias voluptatem unde voluptate.
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </section> -->
-        <!-- <section class="plus section-margin">
+        </section>
+        <section class="calc section-margin element-animation">
+            <div class="container">
+                <div class="calc-inner">
+                    <h2 class="section-title">Калькулятор</h2>
+                    <h2 class="section-subtitle">рассчитайте стоимость услуг</h2>
+                    <form action="/" method="post" class="select__form">
+                        <div class="select__form-item">
+                            <label>Кому нужная помощь</label>
+                            <select name="" id="">
+                                <option value="">Выбрать</option>
+                                <option value="1">Мне</option>
+                                <option value="2">Не мне</option>
+                            </select>
+                        </div>
+                        <div class="select__form-item">
+                            <label>Услуги</label>
+                            <select name="" id="">
+                                <option value="">Выбрать</option>
+                            </select>
+                        </div>
+                        <div class="select__form-item">
+                            <label>Сколько лет зависимому</label>
+                            <select name="" id="">
+                                <option value="">Выбрать</option>
+                            </select>
+                        </div>
+                        <div class="select__form-item">
+                            <label>Длительность потребления</label>
+                            <select name="" id="">
+                                <option value="">Выбрать</option>
+                            </select>
+                        </div>
+                        <div class="select__form-big">
+                            <div class="select__form-item">
+                                <button class="btn__calcul btn__standart">Посчитать стоимость</button>
+                            </div>
+                            <div class="select__form-item">
+                                <label>Итог:
+                                    <span id="calcul__price">0</span>
+                                    <span>₽</span></label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <div class="installment section-offset">
+            <div class="installment__container container">
+                <div class="installment__wrapper">
+                    <div class="installment__content">
+                        <p class="installment__title">
+                            Беспроцентная рассрочка <span>на лечение</span>
+                        </p>
+                        <div class="installment__list">
+                            <div class="installment__item">
+                                <div class="installment__item-icon">
+                                    <svg width="22.998169" height="23.000000" viewBox="0 0 22.9982 23" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <defs />
+                                        <path id="vector"
+                                            d="M15.6054 18.0708L15.6054 8.21338L12.3204 8.21338L12.3204 18.0708L15.6054 18.0708ZM20.5349 18.0708L20.5349 8.21338L17.2488 8.21338L17.2488 18.0708L20.5349 18.0708ZM22.1783 6.27881L11.5004 0L0.820801 6.27881C0.820801 6.27881 0.0841675 6.94287 0.820801 7.39209L22.1783 7.39209C22.1783 7.39209 22.7756 6.90332 22.1783 6.27881ZM10.6787 18.0708L10.6787 8.21338L7.39276 8.21338L7.39276 18.0708L10.6787 18.0708ZM5.75024 18.0708L5.75024 8.21338L2.46332 8.21338L2.46332 18.0708L5.75024 18.0708ZM21.4579 19.231L1.8045 19.2861L0 21.6436L0 23L22.9982 23L22.9982 21.6436L21.4579 19.231Z"
+                                            fill="#3AB8EE" fill-opacity="1.000000" fill-rule="nonzero" />
+                                    </svg>
+                                </div>
+                                <p class="installment__item-text">
+                                    Без похода в банк
+                                </p>
+                            </div>
+                            <div class="installment__item">
+                                <div class="installment__item-icon">
+                                    <svg width="27.000000" height="16.000000" viewBox="0 0 27 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <defs />
+                                        <path id="Vector"
+                                            d="M23.7131 0L3.28693 0C1.47443 0 0 1.43848 0 3.20654L0 12.7935C0 14.5615 1.47443 16 3.28693 16L23.7131 16C25.5256 16 27 14.5615 27 12.7935L27 3.20654C27 1.43848 25.5256 0 23.7131 0ZM6.01331 4.09326C5.75018 4.94043 5.06409 5.60986 4.19556 5.8667L4.19556 10.082C5.06409 10.3389 5.75018 11.0083 6.01331 11.8555L8.75708 11.8555C9.19421 11.8555 9.5481 12.2007 9.5481 12.627C9.5481 13.0532 9.19421 13.3989 8.75708 13.3989L5.93103 13.3989C5.26709 13.3989 4.68231 12.9609 4.50824 12.3345C4.40277 11.9536 4.09485 11.6533 3.70459 11.5498C3.06226 11.3804 2.61353 10.8101 2.61353 10.1621L2.61353 5.78613C2.61353 5.13867 3.06226 4.56787 3.70459 4.39844C4.09485 4.29541 4.40277 3.99463 4.50824 3.61426C4.68231 2.9873 5.26709 2.5498 5.93103 2.5498L8.75708 2.5498C9.19421 2.5498 9.5481 2.89551 9.5481 3.32129C9.5481 3.74805 9.19421 4.09326 8.75708 4.09326L6.01331 4.09326ZM8.01562 7.66602L8.01562 8.35498C8.01562 8.78125 7.66125 9.12646 7.22461 9.12646C6.78796 9.12646 6.43359 8.78125 6.43359 8.35498L6.43359 7.66602C6.43359 7.24023 6.78796 6.89453 7.22461 6.89453C7.66125 6.89453 8.01562 7.24023 8.01562 7.66602ZM13.5 10.9565C11.8146 10.9565 10.443 9.61865 10.443 7.97412C10.443 6.33008 11.8146 4.9917 13.5 4.9917C15.1854 4.9917 16.557 6.33008 16.557 7.97412C16.557 9.61865 15.1854 10.9565 13.5 10.9565ZM24.3865 10.1621C24.3865 10.8101 23.9377 11.3804 23.2954 11.5503C22.9052 11.6533 22.5972 11.9536 22.4918 12.3345C22.3177 12.9609 21.7329 13.3989 21.069 13.3989L18.2429 13.3989C17.8058 13.3989 17.4519 13.0532 17.4519 12.627C17.4519 12.2007 17.8058 11.8555 18.2429 11.8555L20.9867 11.8555C21.2498 11.0083 21.9359 10.3389 22.8044 10.082L22.8044 5.8667C21.9359 5.60986 21.2498 4.94043 20.9867 4.09326L18.2429 4.09326C17.8058 4.09326 17.4519 3.74805 17.4519 3.32129C17.4519 2.89551 17.8058 2.5498 18.2429 2.5498L21.069 2.5498C21.7329 2.5498 22.3177 2.9873 22.4918 3.61426C22.5972 3.99463 22.9052 4.29541 23.2954 4.39893C23.9377 4.56787 24.3865 5.13867 24.3865 5.78613L24.3865 10.1621ZM19.0898 8.35498L19.0898 7.66602C19.0898 7.24023 19.4442 6.89453 19.8809 6.89453C20.3175 6.89453 20.6719 7.24023 20.6719 7.66602L20.6719 8.35498C20.6719 8.78125 20.3175 9.12646 19.8809 9.12646C19.4442 9.12646 19.0898 8.78125 19.0898 8.35498Z"
+                                            fill="#3AB8EE" fill-opacity="1.000000" fill-rule="nonzero" />
+                                        <path id="Vector"
+                                            d="M13.5 6.53516C12.6868 6.53516 12.025 7.18115 12.025 7.97412C12.025 8.76758 12.6868 9.41309 13.5 9.41309C14.3132 9.41309 14.975 8.76758 14.975 7.97412C14.975 7.18115 14.3132 6.53516 13.5 6.53516Z"
+                                            fill="#3AB8EE" fill-opacity="1.000000" fill-rule="nonzero" />
+                                    </svg>
+                                </div>
+                                <p class="installment__item-text">
+                                    Без переплат
+                                </p>
+                            </div>
+                            <div class="installment__item">
+                                <div class="installment__item-icon">
+                                    <svg width="23.748901" height="25.000000" viewBox="0 0 23.7489 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <defs />
+                                        <path id="Vector"
+                                            d="M0 12.5C0 5.60742 5.32687 0 11.875 0C18.4224 0 23.7489 5.60742 23.7489 12.5C23.7489 19.3926 18.4224 25 11.875 25C5.32687 25 0 19.3926 0 12.5ZM11.2952 8.87891C11.2952 7.21631 10.0101 5.86377 8.43106 5.86377C6.85168 5.86377 5.56659 7.21631 5.56659 8.87891C5.56659 10.541 6.8515 11.894 8.43106 11.894C10.0101 11.894 11.2952 10.541 11.2952 8.87891ZM7.03519 18.376C7.22501 18.376 7.41556 18.2998 7.5603 18.147L17.239 7.9585C17.529 7.65332 17.529 7.1582 17.239 6.85303C16.9488 6.54785 16.4784 6.54785 16.1886 6.85303L6.50992 17.0415C6.21991 17.3462 6.21991 17.8418 6.50992 18.147C6.655 18.2998 6.84518 18.376 7.03519 18.376ZM8.43066 7.42773C7.67029 7.42773 7.05167 8.07861 7.05167 8.87891C7.05185 9.6792 7.67047 10.3301 8.43066 10.3301C9.19083 10.3301 9.80908 9.6792 9.80908 8.87891C9.80908 8.07861 9.19083 7.42773 8.43066 7.42773ZM12.4381 16.1113C12.4381 17.7739 13.7232 19.1265 15.3026 19.1265C16.8816 19.1265 18.1665 17.7739 18.1667 16.1113C18.1667 14.4492 16.8818 13.0967 15.3026 13.0967C13.7232 13.0967 12.4381 14.4492 12.4381 16.1113ZM15.3022 14.6602C14.542 14.6602 13.9234 15.3115 13.9234 16.1113C13.9234 16.9121 14.542 17.563 15.3022 17.563C16.0626 17.563 16.6808 16.9121 16.6808 16.1113C16.6806 15.3115 16.0624 14.6602 15.3022 14.6602Z"
+                                            fill="#3AB8EE" fill-opacity="1.000000" fill-rule="evenodd" />
+                                    </svg>
+                                </div>
+                                <p class="installment__item-text">
+                                    Без комиссий
+                                </p>
+                            </div>
+                            <div class="installment__item">
+                                <div class="installment__item-icon">
+                                    <svg width="18.947372" height="24.000000" viewBox="0 0 18.9474 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <defs />
+                                        <path id="Vector"
+                                            d="M18.9474 22.9702L18.9474 7.48145L12.2808 7.48145C11.8041 7.48145 11.4183 7.09766 11.4183 6.62402L11.4183 0L1.03627 0C0.464684 0 0 0.461914 0 1.02979L0 22.9702C0 23.5381 0.464729 24 1.03627 24L17.9106 24C18.4821 24 18.9474 23.5381 18.9474 22.9702ZM13.1434 5.76709L13.1434 1.2124L17.7272 5.76709L13.1434 5.76709ZM15.6414 18.3765C15.6414 18.8496 15.2553 19.2339 14.7786 19.2339L4.16823 19.2339C3.69209 19.2339 3.30543 18.8496 3.30543 18.3765C3.30543 17.9028 3.69209 17.5195 4.16823 17.5195L14.7786 17.5195C15.2553 17.5195 15.6414 17.9028 15.6414 18.3765ZM15.6414 12.5264C15.6414 13 15.2553 13.3833 14.7786 13.3833L4.16823 13.3833C3.69209 13.3833 3.30543 13 3.30543 12.5264C3.30543 12.0532 3.69209 11.6694 4.16823 11.6694L14.7786 11.6694C15.2553 11.6694 15.6414 12.0532 15.6414 12.5264Z"
+                                            fill="#3AB8EE" fill-opacity="1.000000" fill-rule="evenodd" />
+                                    </svg>
+                                </div>
+                                <p class="installment__item-text">
+                                    Без справок
+                                </p>
+                            </div>
+                        </div>
+                        <p class="installment__text">
+                            Рассрочку можно оформить на любое лечение, мы ответим на все вопросы по телефону:
+                        </p>
+                        <a href="tel:89064284356" class="installment__phone">8 (906) 428-43-56</a>
+                        <button class="installment__btn btn__standart">Оставить заявку на рассрочку</button>
+                    </div>
+                    <picture class="installment__picture">
+                        <img src="assets/img/new/woman.png" alt="" class="installment__img">
+                    </picture>
+                </div>
+            </div>
+        </div>
+        <section class="plus section-margin">
             <div class="container">
                 <div class="plus-inner">
                     <h3 class="section-title--small">Преимущества профессиональной помощи в лечении зависимости от
@@ -844,7 +953,6 @@
                             <img src="assets/img/plus/man.jpg" alt="man">
                         </div>
                     </div>
-
                     <ul class="counter--reset">
                         <h6>Этапы терапии:</h6>
                         <li>Снятие абсистентного синдрома, избавления больного от физического пристрастия к
@@ -854,14 +962,10 @@
                             медучреждении</li>
                         <li>Социализация. Данный этап предполагает постепенное возвращение зависимого к нормальной
                             жизни: трудоустройство, налаживание отношений внутри семьи</li>
-
                     </ul>
                     <p>Полный курс восстановления может составлять 3-12 месяцев. За этот период больной полностью
                         избавляется от любого вида тяги к запретным препаратам, изменяет мировоззрение, вырабатывает
                         установку на трезвую жизнь.</p>
-
-
-
                     <h3 class="section-title--small section-title--margin">Особенности лечения наркомании: в клинике
                         или
                         на дому?</h3>
@@ -869,9 +973,6 @@
                         Зависимый от препаратов человек не в состоянии давать адекватную оценку своим поступкам. Вне
                         медицинского учреждения справиться с зависимостью практически невозможно. Ломка провоцирует
                         новый срыв в 99% случаев, даже у стойких людей.</p>
-
-
-
                     <ul>
                         <h6>На стоимость терапевтических процедур влияет:</h6>
                         <li>общее состояние человека;</li>
@@ -888,96 +989,78 @@
                         разрабатывает
                         индивидуальный лечебный план с учетом степени зависимости, состояния здоровья больного, его
                         возраста, наличия сопутствующих болезней.</p>
-
-
-
                 </div>
             </div>
-        </section> -->
-        <!-- <section class="consultations element-animation section-margin">
-            <div class="consultations__content">
-                <div class="container consultations__container">
-                    <div class="consultations__box" style="margin: auto;">
-                        <form class="consultations__form" id="consultations__form">
-                            <h2 class="consultations-title">
-                                Анонимная и бесплатная
-                                консультация специалиста
-                            </h2>
-                            <p class="consultations-text">
-                                Опытные специалисты нашей клиники помогут найти решение именно в вашей ситуации,
-                                обратитесь прямо
-                                сейчас!
-                            </p>
-                            <div class="consultations__form-box">
-                                <label class="user-input-wrp consultations__label  consultations__label--row">
-                                    <input type="text" class="form--name" placeholder="Ваше имя" required />
-
-                                </label>
-                                <label class="user-input-wrp consultations__label consultations__label--row">
-                                    <input type="text" class="form--phone" placeholder="Ваш телефон" required />
-                                </label>
-
-                                <label class="user-input-wrp consultations__label consultations__label--row">
-                                    <textarea required="" name="f_message" placeholder="Сообщение"
-                                        class="consultations-textarea form__focus-js"></textarea>
-                                </label>
-
+        </section>
+        <section class="form__center element-animation section-margin">
+            <div class="container">
+                <form action="/" method="post" class="intro__form form__center-inner">
+                    <div class="form__center-inner--title">Хотите быстро облегчить состояние?</div>
+                    <div class="form__center-inner--subtitle">Анонимная выездная помощь</div>
+                    <div class="intro__form-list">
+                        <div class="intro__form-item">
+                            <div class="intro__form-item-icon">
+                                <svg width="28.000000" height="18.000000" viewBox="0 0 28 18" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <defs />
+                                    <path id="Vector"
+                                        d="M25.0943 8.75977C24.1271 8.51416 23.5737 8.35938 23.1939 7.6416L21.9239 5.12646C21.5438 4.40869 20.5573 3.82178 19.7311 3.82178L17.7607 3.82178L17.7607 1.48682C17.7607 0.668945 17.0766 0 16.2406 0L1.51999 0C0.683929 0 0 0.668945 0 1.48682L0 14.0889C0 14.9067 0.68399 15.5757 1.51999 15.5757L2.58212 15.5757C2.57971 15.5239 2.57803 15.4722 2.57803 15.4199C2.57803 13.5659 4.12009 12.0576 6.01538 12.0576C7.91086 12.0576 9.45291 13.5659 9.45291 15.4199C9.45291 15.4722 9.45129 15.5239 9.44891 15.5757L16.2407 15.5757C16.3263 15.5757 16.4098 15.5679 16.4917 15.5547C16.49 15.5098 16.4881 15.4648 16.4881 15.4199C16.4881 13.5659 18.0301 12.0576 19.9255 12.0576C21.8209 12.0576 23.3629 13.5659 23.3629 15.4199C23.3629 15.4722 23.3613 15.5239 23.3589 15.5757L26.4981 15.5757C27.3244 15.5757 28 14.9146 28 14.1064L28 11.3149C27.9999 8.96387 25.8973 8.96387 25.0943 8.75977ZM12.7751 7.53369C12.7751 7.95703 12.421 8.30322 11.9883 8.30322L10.3556 8.30322L10.3556 9.90039C10.3556 10.3237 10.0016 10.6699 9.56876 10.6699L8.19186 10.6699C7.75903 10.6699 7.40497 10.3237 7.40497 9.90039L7.40497 8.30322L5.77237 8.30322C5.33954 8.30322 4.98547 7.95703 4.98547 7.53369L4.98547 6.18652C4.98547 5.76318 5.33954 5.41699 5.77237 5.41699L7.40497 5.41699L7.40497 3.81982C7.40497 3.39648 7.75903 3.0498 8.19186 3.0498L9.56876 3.0498C10.0016 3.0498 10.3556 3.39648 10.3556 3.81982L10.3556 5.41699L11.9883 5.41699C12.421 5.41699 12.7751 5.76318 12.7751 6.18652L12.7751 7.53369ZM17.7607 8.62939L17.7607 4.84326L19.1975 4.84326C19.9323 4.84326 20.8103 5.36572 21.1483 6.00391L22.2783 8.24219C22.3611 8.39844 22.4532 8.52441 22.5576 8.62939L17.7607 8.62939ZM6.01547 12.8398C4.55832 12.8398 3.37756 13.9941 3.37756 15.4199C3.37756 16.8452 4.55841 18 6.01547 18C7.47302 18 8.65353 16.8452 8.65353 15.4199C8.65353 13.9941 7.47302 12.8398 6.01547 12.8398ZM17.2875 15.4199C17.2875 13.9941 18.4683 12.8398 19.9254 12.8398C21.383 12.8398 22.5634 13.9941 22.5634 15.4199C22.5634 16.8452 21.383 18 19.9254 18C18.4684 18 17.2875 16.8452 17.2875 15.4199ZM6.01547 16.5415C5.38208 16.5415 4.86884 16.0396 4.86884 15.4199C4.86884 14.7998 5.38199 14.2979 6.01547 14.2979C6.64896 14.2979 7.16251 14.7998 7.16251 15.4199C7.16251 16.0396 6.64886 16.5415 6.01547 16.5415ZM18.7787 15.4199C18.7787 16.0396 19.2919 16.5415 19.9254 16.5415C20.5589 16.5415 21.0724 16.0396 21.0724 15.4199C21.0724 14.7998 20.5589 14.2979 19.9254 14.2979C19.2919 14.2979 18.7787 14.7998 18.7787 15.4199Z"
+                                        fill="#1CAB3E" fill-opacity="1.000000" fill-rule="evenodd" />
+                                </svg>
                             </div>
-                            <div class="consultations__form-inner">
-                                <button class="consultations__btn gradient_btn ">
-                                    Отправить
-                                </button>
-                                <div class="form-personal">
-                                    <label>
-                                        <input type="checkbox" value="checked" /> Нажимая кнопку “Оставить заявку”
-                                        вы
-                                        соглашаетесь
-                                        с политикой конфиденциальности данного сайта
-                                    </label>
-
-                                </div>
-
+                            <div class="intro__form-item-descr">
+                                Быстро приедем
+                                на вызов
                             </div>
-
-                        </form>
-                        <div class="consultations__column">
-                            <div class="consultations__column-transport">
-                                <h3 class="consultations__column-title">
-                                    Бесплатно
-                                </h3>
-                                <strong class="consultations__column-cliniki">
-                                    Транспортировка до клиники
-                                </strong>
-                                <p class="consultations__column-text">
-                                    К пациенту выезжает врач нарколог, применяет при необходимости, меры первичной
-                                    медицинской помощи,
-                                    затем сопровождает пациента на всем пути следования в клинику
-                                </p>
+                        </div>
+                        <div class="intro__form-item">
+                            <div class="intro__form-item-icon">
+                                <svg width="22.000000" height="22.000000" viewBox="0 0 22 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <defs />
+                                    <path id="Vector"
+                                        d="M14.5604 1.83203L14.5604 3.11572L16.3922 3.11572L16.3922 0.916016C16.3922 0.408691 15.9837 0 15.4763 0L6.52367 0C6.01633 0 5.60776 0.408691 5.60776 0.916016L5.60776 3.12061L7.43959 3.12061L7.43959 1.83203L14.5604 1.83203ZM0.915924 4.95215L21.0841 4.95215C21.5914 4.95215 22 5.32959 22 5.79639L22 14.7578L0 14.7578L0 5.79639C0 5.32959 0.408569 4.95215 0.915924 4.95215ZM11.9159 10.771L13.3482 10.771C13.8555 10.771 14.2641 10.3623 14.2641 9.85498C14.2641 9.34766 13.8555 8.93896 13.3482 8.93896L11.9159 8.93896L11.9159 7.47559C11.9159 6.96826 11.5074 6.55957 11 6.55957C10.4926 6.55957 10.0841 6.96826 10.0841 7.47559L10.0841 8.93896L8.65184 8.93896C8.14449 8.93896 7.73592 9.34766 7.73592 9.85498C7.73592 10.3623 8.14449 10.771 8.65184 10.771L10.0841 10.771L10.0841 12.2349C10.0841 12.7422 10.4926 13.1504 11 13.1504C11.5074 13.1504 11.9159 12.7422 11.9159 12.2349L11.9159 10.771ZM0 21.1558C0 21.623 0.408569 22 0.915924 22L21.0841 22C21.5914 22 22 21.623 22 21.1558L22 16.5898L0 16.5898L0 21.1558Z"
+                                        fill="#1CAB3E" fill-opacity="1.000000" fill-rule="evenodd" />
+                                </svg>
                             </div>
-                            <div class="consultations__column-qualit">
-                                <strong class="consultations__column-time">
-                                    24/7
-                                </strong>
-                                <p class="consultations__qualit-text">
-                                    Наша клиника работает круглосуточно
-                                </p>
+                            <div class="intro__form-item-descr">
+                                Окажем медицинскую
+                                помощь
                             </div>
-                            <div class="consultations__column-qualit">
-                                <strong class="consultations__column-time">
-                                    100%
-                                </strong>
-                                <p class="consultations__qualit-text">
-                                    Бесплатный подбор
-                                    програмы лечения
-                                </p>
+                        </div>
+                        <div class="intro__form-item">
+                            <div class="intro__form-item-icon">
+                                <svg width="28.000000" height="22.000000" viewBox="0 0 28 22" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <defs />
+                                    <path id="Vector"
+                                        d="M6.37054 11C6.37054 4.9248 11.2125 0 17.1853 0C23.1581 0 28 4.9248 28 11C28 17.0752 23.1581 22 17.1853 22C11.2125 22 6.37054 17.0752 6.37054 11ZM16.0504 12.3672L20.5958 15.5176L21.5197 14.1387L17.6911 11.4849L17.6911 5.61621L16.0504 5.61621L16.0504 12.3672ZM1.51424 6.82812L4.72987 6.82812L4.72987 8.49707L1.51424 8.49707L1.51424 6.82812ZM4.72992 10.1655L0 10.1655L0 11.8345L4.72992 11.8345L4.72992 10.1655ZM1.51424 13.5029L4.72987 13.5029L4.72987 15.1719L1.51424 15.1719L1.51424 13.5029Z"
+                                        fill="#1CAB3E" fill-opacity="1.000000" fill-rule="evenodd" />
+                                </svg>
+                            </div>
+                            <div class="intro__form-item-descr">
+                                Облегчение состояния
+                                уже через 2 часа
                             </div>
                         </div>
                     </div>
-                </div>
+                    <div class="form__center-item">
+                        <label class="user-input-wrp">
+                            <input type="text" class="form--name" placeholder="Ваше имя" required />
+                        </label>
+                        <label class="user-input-wrp">
+                            <input type="tel" class="form--phone" placeholder="Телефон" required />
+                        </label>
+                        <button class="gradient_btn btn__standart">Вызвать врача</button>
+                    </div>
+                    <div class="form-policy">
+                        Отправляя анонимную заявку, вы соглашаетесь
+                        с <a href="#">политикой конфиденциальности</a>
+                    </div>
+                </form>
             </div>
-
-        </section> -->
-        <!-- <section class="special section-margin">
+        </section>
+        <section class="special section-margin">
             <div class="container">
                 <h3 class="section-title--small">Особенности оказываемых услуг</h3>
                 <div class="special-inner">
@@ -1018,11 +1101,8 @@
                                     <li>Социальная адаптация. После выписки из клиники больной приобретает
                                         уверенность в
                                         себе, налаживает отношения с близкими, трудоустраивается.</li>
-                                    <li>Для профилактики рецидивов, бывшие зависимые посещают групповые занятия.
-                                    </li>
-
+                                    <li>Для профилактики рецидивов, бывшие зависимые посещают групповые занятия.</li>
                                 </ul>
-
                             </div>
                         </div>
                         <p>Важно понимать, что вызов даже профессионального нарколога не является главным
@@ -1183,9 +1263,108 @@
                         </p>
                     </div>
                 </div>
+                <div class="reviewer">
+                    <div class="reviewer__wrapper">
+                        <picture class="reviewer__picture">
+                            <img src="assets/img/proff/1.jpg" alt="" class="reviewer__img">
+                        </picture>
+                        <div class="reviewer__content">
+                            <p class="reviewer__title">
+                                Статья под редакцией врача:
+                            </p>
+                            <p class="reviewer__name">
+                                Бунин Андрей Михайлович
+                            </p>
+                            <p class="reviewer__specialization">
+                                Нарколог
+                            </p>
+                            <p class="reviewer__exp">
+                                Стаж: <b>Более 12 лет</b>
+                            </p>
+                            <p class="reviewer__date">
+                                Обновлено: 14 Февраля 2024
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section> -->
-        <!-- <section class="difference section-margin element-animation">
+        </section>
+        <section class="consultations element-animation section-margin">
+            <div class="consultations__content">
+                <div class="container consultations__container">
+                    <div class="consultations__box" style="margin: auto;">
+                        <form class="consultations__form" id="consultations__form">
+                            <h2 class="consultations-title">
+                                Анонимная и бесплатная
+                                консультация специалиста
+                            </h2>
+                            <p class="consultations-text">
+                                Опытные специалисты нашей клиники помогут найти решение именно в вашей ситуации,
+                                обратитесь прямо
+                                сейчас!
+                            </p>
+                            <div class="consultations__form-box">
+                                <label class="user-input-wrp consultations__label  consultations__label--row">
+                                    <input type="text" class="form--name" placeholder="Ваше имя" required />
+
+                                </label>
+                                <label class="user-input-wrp consultations__label consultations__label--row">
+                                    <input type="text" class="form--phone" placeholder="Ваш телефон" required />
+                                </label>
+
+                                <label class="user-input-wrp consultations__label consultations__label--row">
+                                    <textarea required="" name="f_message" placeholder="Сообщение"
+                                        class="consultations-textarea form__focus-js"></textarea>
+                                </label>
+
+                            </div>
+                            <div class="consultations__form-inner">
+                                <button class="consultations__btn gradient_btn ">
+                                    Отправить
+                                </button>
+                                <div class="form-policy">
+                                    Отправляя анонимную заявку, вы соглашаетесь
+                                    с <a href="#">политикой конфиденциальности</a>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="consultations__column">
+                            <div class="consultations__column-transport">
+                                <h3 class="consultations__column-title">
+                                    Бесплатно
+                                </h3>
+                                <strong class="consultations__column-cliniki">
+                                    Транспортировка до клиники
+                                </strong>
+                                <p class="consultations__column-text">
+                                    К пациенту выезжает врач нарколог, применяет при необходимости, меры первичной
+                                    медицинской помощи,
+                                    затем сопровождает пациента на всем пути следования в клинику
+                                </p>
+                            </div>
+                            <div class="consultations__column-qualit">
+                                <strong class="consultations__column-time">
+                                    24/7
+                                </strong>
+                                <p class="consultations__qualit-text">
+                                    Наша клиника работает круглосуточно
+                                </p>
+                            </div>
+                            <div class="consultations__column-qualit">
+                                <strong class="consultations__column-time">
+                                    100%
+                                </strong>
+                                <p class="consultations__qualit-text">
+                                    Бесплатный подбор
+                                    програмы лечения
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="difference section-margin element-animation">
             <div class="container">
                 <div class="difference-inner">
                     <div class="difference-item">
@@ -1209,64 +1388,8 @@
                     </div>
                 </div>
             </div>
-        </section> -->
-        <!-- <section class="calc section-margin element-animation">
-            <div class="container">
-                <div class="calc-inner">
-                    <h2 class="section-title">Калькулятор</h2>
-                    <h2 class="section-subtitle">рассчитайте стоимость услуг</h2>
-                    <form action="/" method="post" class="select__form">
-                        <div class="select__form-item">
-                            <label>Кому нужная помощь</label>
-                            <select name="" id="">
-                                <option value="">Выбрать</option>
-                                <option value="1">Мне</option>
-                                <option value="2">Не мне</option>
-                            </select>
-                        </div>
-
-                        <div class="select__form-item">
-                            <label>Услуги</label>
-                            <select name="" id="">
-                                <option value="">Выбрать</option>
-                            </select>
-                        </div>
-
-                        <div class="select__form-item">
-                            <label>Сколько лет зависимому</label>
-                            <select name="" id="">
-                                <option value="">Выбрать</option>
-                            </select>
-                        </div>
-
-                        <div class="select__form-item">
-                            <label>Длительность потребления</label>
-                            <select name="" id="">
-                                <option value="">Выбрать</option>
-                            </select>
-                        </div>
-                        <div class="select__form-big">
-                            <div class="select__form-item">
-
-                                <button class="btn__calcul btn__standart">Посчитать стоимость</button>
-                            </div>
-
-                            <div class="select__form-item">
-                                <label>Итог:
-                                    <span id="calcul__price">0</span>
-                                    <span>₽</span></label>
-
-                            </div>
-                        </div>
-
-
-
-                    </form>
-                </div>
-
-            </div>
-        </section> -->
-        <!-- <section class="faq section-margin element-animation">
+        </section>
+        <section class="faq section-margin element-animation">
             <div class="container">
                 <div class="faq-inner">
                     <h2 class="section-title">F.A.Q.</h2>
@@ -1342,56 +1465,42 @@
                             <a href="#" class="gradient_btn btn__standart">Оставить заявку</a>
                         </div>
                     </form>
-                    <div class="form-personal">
-                        <label>
-                            <input type="checkbox" value="checked" /> Нажимая кнопку “Оставить заявку” вы
-                            соглашаетесь
-                            с политикой конфиденциальности данного сайта
-                        </label>
+                    <div class="form-policy">
+                        Отправляя анонимную заявку, вы соглашаетесь
+                        с <a href="#">политикой конфиденциальности</a>
                     </div>
                 </section>
             </div>
-        </section> -->
-        <!-- <section class="last__form section-margin element-animation">
+        </section>
+        <section class="last__form section-margin element-animation">
             <div class="container">
                 <div class="last__form-inner last__form-item--flex">
-
                     <div class="last__form-item__img">
                         <img src="assets/img/womans.png" alt="Женщины">
                     </div>
-
                     <div class="last__form-item last__form-item--flex">
                         <form action="/">
                             <h2 class="section-subtitle">больной не хочет лечиться?</h2>
                             <p>Берем все на себя! Убеждаем на лечение без физического и морального давления</p>
-
                             <div class="last__form-item__intro">
                                 <label class="user-input-wrp">
                                     <input type="text" class="form--name" placeholder="Ваше имя" required />
-
                                 </label>
                                 <label class="user-input-wrp">
                                     <input type="text" class="form--phone" placeholder="Ваш телефон" required />
-
                                 </label>
-
                                 <button class=" btn__standart btn--white last__form-btn">Оставить заявку</button>
-                                <div class="form-personal">
-                                    <label>
-                                        <input type="checkbox" value="checked" /> Нажимая кнопку “Оставить заявку”
-                                        вы
-                                        соглашаетесь
-                                        с политикой конфиденциальности данного сайта
-                                    </label>
-
+                                <div class="form-personal form-policy form-policy_white">
+                                    Отправляя анонимную заявку, вы соглашаетесь
+                                    с <a href="#">политикой конфиденциальности</a>
                                 </div>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
-        </section> -->
-        <!-- <section class="comment section-margin element-animation">
+        </section>
+        <section class="comment section-margin element-animation">
             <div class="container">
                 <div class="swiper-comments swiper-my__wrapper">
                     <div class="swiper__header">
@@ -1526,8 +1635,8 @@
                     </div>
                 </div>
             </div>
-        </section> -->
-        <!-- <section class="gallery section-margin element-animation">
+        </section>
+        <section class="gallery section-margin element-animation">
             <div class="container">
                 <div class="swiper-gallery swiper-my__wrapper">
                     <div class="swiper__header">
@@ -1571,8 +1680,8 @@
                     </div>
                 </div>
             </div>
-        </section> -->
-        <!-- <section class="doctor section-margin element-animation">
+        </section>
+        <section class="doctor section-margin element-animation">
             <div class="container">
                 <div class="swiper-doctor swiper-my__wrapper">
                     <div class="swiper__header">
@@ -1610,7 +1719,7 @@
                                         Стаж работы: <span>14 </span>лет
                                     </span>
                                 </span>
-                                <a class="btn__standart" href="#">Записаться к врачу</a>
+                                <a class="doctor-card__btn btn__standart" href="#">Записаться к врачу</a>
                                 <a href="#">Подробнее</a>
                             </div>
                         </div>
@@ -1627,7 +1736,7 @@
                                         Стаж работы: <span>14 </span>лет
                                     </span>
                                 </span>
-                                <a class="btn__standart" href="#">Записаться к врачу</a>
+                                <a class="doctor-card__btn btn__standart" href="#">Записаться к врачу</a>
                                 <a href="#">Подробнее</a>
                             </div>
                         </div>
@@ -1644,7 +1753,7 @@
                                         Стаж работы: <span>14 </span>лет
                                     </span>
                                 </span>
-                                <a class="btn__standart" href="#">Записаться к врачу</a>
+                                <a class="doctor-card__btn btn__standart" href="#">Записаться к врачу</a>
                                 <a href="#">Подробнее</a>
                             </div>
                         </div>
@@ -1661,7 +1770,7 @@
                                         Стаж работы: <span>14 </span>лет
                                     </span>
                                 </span>
-                                <a class="btn__standart" href="#">Записаться к врачу</a>
+                                <a class="doctor-card__btn btn__standart" href="#">Записаться к врачу</a>
                                 <a href="#">Подробнее</a>
                             </div>
                         </div>
@@ -1678,7 +1787,7 @@
                                         Стаж работы: <span>14 </span>лет
                                     </span>
                                 </span>
-                                <a class="btn__standart" href="#">Записаться к врачу</a>
+                                <a class="doctor-card__btn btn__standart" href="#">Записаться к врачу</a>
                                 <a href="#">Подробнее</a>
                             </div>
                         </div>
@@ -1695,7 +1804,7 @@
                                         Стаж работы: <span>14 </span>лет
                                     </span>
                                 </span>
-                                <a class="btn__standart" href="#">Записаться к врачу</a>
+                                <a class="doctor-card__btn btn__standart" href="#">Записаться к врачу</a>
                                 <a href="#">Подробнее</a>
                             </div>
                         </div>
@@ -1706,8 +1815,8 @@
                     </div>
                 </div>
             </div>
-        </section> -->
-        <!-- <section class="certificate section-margin element-animation">
+        </section>
+        <section class="certificate section-margin element-animation">
             <div class="container">
                 <div class="swiper-certificate swiper-my__wrapper">
                     <div class="swiper__header">
@@ -1781,7 +1890,7 @@
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
         <!-- <section class="map section-margin element-animation">
             <div class="map-content">
                 <div class="map-contacts">
@@ -1825,7 +1934,6 @@
             </div>
         </section> -->
     </main>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <!-- <footer class="footer">
         <div class="footer-content">
             <div class="container">
