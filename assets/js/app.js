@@ -205,49 +205,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
-
-  const mapCheck = document.getElementById('map_container');
-  if (mapCheck != null) {
-    let options_map = {
-      once: true,
-      passive: true,
-      capture: true
-    };
-    mapCheck.addEventListener('click', start_lazy_map, options_map);
-    mapCheck.addEventListener('mouseover', start_lazy_map, options_map);
-    mapCheck.addEventListener('touchstart', start_lazy_map, options_map);
-    mapCheck.addEventListener('touchmove', start_lazy_map, options_map);
-    let map_loaded = false;
-    function start_lazy_map() {
-      if (!map_loaded) {
-
-        ymaps.ready(init);
-
-        function init() {
-          const map = document.querySelector('#map');
-
-          if (map) {
-            var myMap = new ymaps.Map("map", {
-              center: [47.217641, 39.702284],
-              zoom: 16,
-            });
-            var myPlacemark = new ymaps.Placemark([47.217641, 39.702284], {}, {
-              iconLayout: 'default#image',
-
-            });
-
-            myMap.geoObjects.add(myPlacemark);
-          }
-        }
-
-      }
-
-
-    }
-
-  }
-
-
   let popupBg = document.querySelector('.popup__bg');
   if (popupBg != null) {
     let popup = document.querySelector('.popup');
