@@ -1,4 +1,17 @@
+function initPhoneMask() {
+  const phoneFields = document.querySelectorAll('input[type="tel"]');
+  const maskOptions = {
+    mask: '+{7} (000) 000 00-00'
+  };
+
+  phoneFields.forEach((phoneField) => {
+    IMask(phoneField, maskOptions);
+  });
+}
+
 document.addEventListener('DOMContentLoaded', function () {
+  const jaw = document.querySelector('.jaw');
+
   const commentsSliderCheck = document.querySelectorAll('.swiper-comments');
   if (commentsSliderCheck.length > 0) {
     commentsSliderCheck.forEach((slider) => {
@@ -125,16 +138,10 @@ document.addEventListener('DOMContentLoaded', function () {
       bodyItem = document.querySelectorAll('.panel-body');
     panelItem.__proto__.forEach = [].__proto__.forEach;
 
-    var activePanel;
     panelItem.forEach(function (item, i, panelItem) {
       item.addEventListener('click', function (e) {
-        this.classList.add('panel-active');
-        this.nextElementSibling.classList.add('active');
-        if (activePanel) {
-          activePanel.classList.remove('panel-active');
-          activePanel.nextElementSibling.classList.remove('active');
-        }
-        activePanel = (activePanel === this) ? 0 : this;
+        this.classList.toggle('panel-active');
+        this.nextElementSibling.classList.toggle('active');
       });
     });
   }
@@ -142,11 +149,6 @@ document.addEventListener('DOMContentLoaded', function () {
   // menu mobile
   const header = document.querySelector('.header');
   const contentBurger = document.querySelector('.header__bottom-content--burger');
-  const jaw = document.querySelector('.jaw');
-
-  console.log(jaw);
-  console.log(jaw.scrollHeight);
-  console.log(header.scrollHeight);
 
   document.querySelector('.burger__menu').addEventListener('click', function () {
     document.querySelector('.burger__menu').classList.toggle("active");
@@ -173,32 +175,26 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 
-  const elementShowCheck = document.querySelectorAll('.element-animation');
-  if (elementShowCheck.length > 0) {
-    function onEntry(e) {
-      e.forEach(e => {
-        e.isIntersecting && e.target.classList.add("element-show")
-      }
-      )
-    }
-    let options = {
-      threshold: [.5]
-    }
-      , observer = new IntersectionObserver(onEntry, options)
-      , elements = document.querySelectorAll(".element-animation");
-    for (let e of elements)
-      observer.observe(e);
-  }
+  // const elementShowCheck = document.querySelectorAll('.element-animation');
+  // if (elementShowCheck.length > 0) {
+  //   function onEntry(e) {
+  //     e.forEach(e => {
+  //       e.isIntersecting && e.target.classList.add("element-show")
+  //     }
+  //     )
+  //   }
+  //   let options = {
+  //     threshold: [.5]
+  //   }
+  //     , observer = new IntersectionObserver(onEntry, options)
+  //     , elements = document.querySelectorAll(".element-animation");
+  //   for (let e of elements)
+  //     observer.observe(e);
+  // }
 
-
-
-
-
-
-  let header__top = document.getElementById('#header__top');
   let header__bottom = document.getElementById('#header__bottom');
   window.addEventListener('scroll', function () {
-    if (window.scrollY > header__top.offsetHeight) {
+    if (window.scrollY > jaw.offsetHeight) {
       header__bottom.classList.add("fixed");
     } else {
       header__bottom.classList.remove("fixed");
@@ -297,4 +293,6 @@ document.addEventListener('DOMContentLoaded', function () {
       })
     }
   }
+
+  initPhoneMask();
 });

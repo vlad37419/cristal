@@ -13,6 +13,7 @@
     <script defer src="assets/js/fancybox.js"></script>
     <script defer src="assets/js/build/lidrekon-jquery.js"></script>
     <script defer src="assets/js/build/lidrekon.js"></script>
+    <script defer src="assets/js/build/mask.js"></script>
     <script defer src="assets/js/app.js"></script>
     <script type="text/javascript">
         document.addEventListener('DOMContentLoaded', function () {
@@ -352,7 +353,7 @@
                 </div>
                 <div class="intro-item intro-item--bg">
                     <form action="/" method="post" class="intro__form">
-                        <h3 class="intro__form--title">Получите консультацию специалиста бесплатно</h3>
+                        <div class="intro__form--title">Получите консультацию специалиста бесплатно</div>
                         <label class="user-input-wrp">
                             <input type="text" class="form--name" required />
                             <span class="floating-label">Ваше имя</span>
@@ -373,8 +374,8 @@
         </section>
         <section class="stage section-margin element-animation">
             <div class="container">
-                <h2 class="section-title">6 шагов</h2>
-                <h2 class="section-subtitle">этапы оказания помощи</h2>
+                <p class="section-title">6 шагов</p>
+                <p class="section-subtitle">этапы оказания помощи</p>
                 <div class="stage-inner">
                     <div class="stage-item">
                         <div class="stage-number">01</div>
@@ -442,7 +443,7 @@
         <section class="second element-animation section-margin">
             <div class="container">
                 <div class="second-inner">
-                    <h2>Уважаемые жители Санкт-Петербурга!</h2>
+                    <p>Уважаемые жители Санкт-Петербурга!</p>
                     <p>С радостью сообщаем Вам об открытии нашего медицинского Центра Кристалл в невском районе. Мы
                         оказываем полный спектра медицинских услуг. Приёмы квалифицированных специалистов,
                         диагностика,
@@ -455,12 +456,12 @@
         </section>
         <section class="works section-margin">
             <div class="container">
-                <h2 class="section-title">Услуги</h2>
-                <h2 class="section-subtitle">Основные направления</h2>
+                <p class="section-title">Услуги</p>
+                <p class="section-subtitle">Основные направления</p>
                 <div class="works-inner">
                     <a href="#" class="works-item">
                         <div class="works-item__wpapper">
-                            <h3 class="works-text">Наркомания</h3>
+                            <p class="works-text">Наркомания</p>
                             <div class="works-item__icon-wrapper">
                                 <img src="assets/img/new/work-icon.svg" alt="" class="works-item__icon">
                             </div>
@@ -469,7 +470,7 @@
                     </a>
                     <a href="#" class="works-item">
                         <div class="works-item__wpapper">
-                            <h3 class="works-text">Игромания</h3>
+                            <p class="works-text">Игромания</p>
                             <div class="works-item__icon-wrapper">
                                 <img src="assets/img/new/work-icon.svg" alt="" class="works-item__icon">
                             </div>
@@ -478,7 +479,7 @@
                     </a>
                     <a href="#" class="works-item">
                         <div class="works-item__wpapper">
-                            <h3 class="works-text">Созависимость</h3>
+                            <p class="works-text">Созависимость</p>
                             <div class="works-item__icon-wrapper">
                                 <img src="assets/img/new/work-icon.svg" alt="" class="works-item__icon">
                             </div>
@@ -487,7 +488,7 @@
                     </a>
                     <a href="#" class="works-item">
                         <div class="works-item__wpapper">
-                            <h3 class="works-text">Алкоголизм</h3>
+                            <p class="works-text">Алкоголизм</p>
                             <div class="works-item__icon-wrapper">
                                 <img src="assets/img/new/work-icon.svg" alt="" class="works-item__icon">
                             </div>
@@ -496,7 +497,7 @@
                     </a>
                     <a href="#" class="works-item">
                         <div class="works-item__wpapper">
-                            <h3 class="works-text">Табакокурение</h3>
+                            <p class="works-text">Табакокурение</p>
                             <div class="works-item__icon-wrapper">
                                 <img src="assets/img/new/work-icon.svg" alt="" class="works-item__icon">
                             </div>
@@ -505,7 +506,7 @@
                     </a>
                     <a href="#" class="works-item">
                         <div class="works-item__wpapper">
-                            <h3 class="works-text">Психиатрия</h3>
+                            <p class="works-text">Психиатрия</p>
                             <div class="works-item__icon-wrapper">
                                 <img src="assets/img/new/work-icon.svg" alt="" class="works-item__icon">
                             </div>
@@ -517,8 +518,8 @@
         </section>
         <section class="why__are__we section-margin">
             <div class="container">
-                <h2 class="section-title">преимущества</h2>
-                <h2 class="section-subtitle">Почему выбирают нас</h2>
+                <p class="section-title">преимущества</p>
+                <p class="section-subtitle">Почему выбирают нас</p>
                 <div class="why__are__we-inner">
                     <div class="why__are__we-item">
                         <h4>
@@ -620,7 +621,7 @@
         </section>
         <section class="price section-margin element-animation">
             <div class="container">
-                <h2 class="section-title">Прайс</h2>
+                <p class="section-title">Прайс</p>
                 <h2 class="section-subtitle">Цены на наши услуги</h2>
                 <div class="price-inner">
                     <div class="price-item">
@@ -633,14 +634,14 @@
                         </a>
                     </div>
                     <ul class="panel-group">
-                        <li class="panel-title">
+                        <li class="panel-title panel-active">
                             <div>
                                 <div>
                                     <span>Услуги по лечению алкоголизма</span>
                                     <span>От 2500 ₽ </span>
                                 </div>
-                                <button><span class="open-popup-thrid"
-                                        id="Услуги по лечению алкоголизма">Заказать</span>
+                                <button class="faq__accor-btn">
+                                    <span class="open-popup-thrid" id="Услуги по лечению алкоголизма">Заказать</span>
                                     <picture>
                                         <source srcset="assets/img/icon/popup.svg" type="image/svg+xml">
                                         <img src="assets/img/icon/popup.png" alt="popup">
@@ -648,7 +649,7 @@
                                 </button>
                             </div>
                         </li>
-                        <li class="panel-body">
+                        <li class="panel-body active">
                             <ul>
                                 <li><span>В стационаре</span> <span>от 5000 ₽</span> <a class="open-popup-thrid"
                                         id="В стационаре">Заказать</a></li>
@@ -684,7 +685,8 @@
                                     <span>Услуги по лечению наркомании</span>
                                     <span>От 3500 ₽ </span>
                                 </div>
-                                <button><span class="open-popup-thrid" id="Услуги по лечению наркомании">Заказать</span>
+                                <button class="faq__accor-btn"><span class="open-popup-thrid"
+                                        id="Услуги по лечению наркомании">Заказать</span>
                                     <picture>
                                         <source srcset="assets/img/icon/popup.svg" type="image/svg+xml">
                                         <img src="assets/img/icon/popup.png" alt="popup">
@@ -704,7 +706,8 @@
                                     <span>Услуги по выводу из запоя</span>
                                     <span>От 2500 ₽ </span>
                                 </div>
-                                <button><span class="open-popup-thrid" id="Услуги по выводу из запоя">Заказать</span>
+                                <button class="faq__accor-btn"><span class="open-popup-thrid"
+                                        id="Услуги по выводу из запоя">Заказать</span>
                                     <picture>
                                         <source srcset="assets/img/icon/popup.svg" type="image/svg+xml">
                                         <img src="assets/img/icon/popup.png" alt="popup">
@@ -724,7 +727,8 @@
                                     <span>Помощь</span>
                                     <span>От 4500 ₽ </span>
                                 </div>
-                                <button><span class="open-popup-thrid" id="Помощь">Заказать</span>
+                                <button class="faq__accor-btn"><span class="open-popup-thrid"
+                                        id="Помощь">Заказать</span>
                                     <picture>
                                         <source srcset="assets/img/icon/popup.svg" type="image/svg+xml">
                                         <img src="assets/img/icon/popup.png" alt="popup">
@@ -744,7 +748,8 @@
                                     <span>Кодирование</span>
                                     <span>От 2500 ₽ </span>
                                 </div>
-                                <button><span class="open-popup-thrid" id="Кодирование">Заказать</span>
+                                <button class="faq__accor-btn"><span class="open-popup-thrid"
+                                        id="Кодирование">Заказать</span>
                                     <picture>
                                         <source srcset="assets/img/icon/popup.svg" type="image/svg+xml">
                                         <img src="assets/img/icon/popup.png" alt="popup">
@@ -764,7 +769,8 @@
                                     <span>Зависимости</span>
                                     <span>От 5500 ₽ </span>
                                 </div>
-                                <button><span class="open-popup-thrid" id="Зависимости">Заказать</span>
+                                <button class="faq__accor-btn"><span class="open-popup-thrid"
+                                        id="Зависимости">Заказать</span>
                                     <picture>
                                         <source srcset="assets/img/icon/popup.svg" type="image/svg+xml">
                                         <img src="assets/img/icon/popup.png" alt="popup">
@@ -785,8 +791,15 @@
         <section class="calc section-margin element-animation">
             <div class="container">
                 <div class="calc-inner">
-                    <h2 class="section-title">Калькулятор</h2>
-                    <h2 class="section-subtitle">рассчитайте стоимость услуг</h2>
+                    <div class="calc__top">
+                        <p class="calc__title section-title">Калькулятор</p>
+                        <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6 1.5V0.5V1.5ZM21.625 20.625C22.1773 20.625 22.625 20.1773 22.625 19.625C22.625 19.0727 22.1773 18.625 21.625 18.625V20.625ZM17.875 18.625C17.3227 18.625 16.875 19.0727 16.875 19.625C16.875 20.1773 17.3227 20.625 17.875 20.625V18.625ZM1 21.5H0H1ZM4.66789 20.7929C4.27737 21.1834 4.27737 21.8166 4.66789 22.2071C5.05842 22.5976 5.69158 22.5976 6.08211 22.2071L4.66789 20.7929ZM9.83211 18.4571C10.2226 18.0666 10.2226 17.4334 9.83211 17.0429C9.44158 16.6524 8.80842 16.6524 8.41789 17.0429L9.83211 18.4571ZM8.41789 22.2071C8.80842 22.5976 9.44158 22.5976 9.83211 22.2071C10.2226 21.8166 10.2226 21.1834 9.83211 20.7929L8.41789 22.2071ZM6.08211 17.0429C5.69158 16.6524 5.05842 16.6524 4.66789 17.0429C4.27737 17.4334 4.27737 18.0666 4.66789 18.4571L6.08211 17.0429ZM2 6.5C2 5.43913 2.42143 4.42172 3.17157 3.67157L1.75736 2.25736C0.632141 3.38258 0 4.9087 0 6.5H2ZM3.17157 3.67157C3.92172 2.92143 4.93913 2.5 6 2.5V0.5C4.4087 0.5 2.88258 1.13214 1.75736 2.25736L3.17157 3.67157ZM6 2.5H21V0.5H6V2.5ZM21 2.5C22.0609 2.5 23.0783 2.92143 23.8284 3.67157L25.2426 2.25736C24.1174 1.13214 22.5913 0.5 21 0.5V2.5ZM23.8284 3.67157C24.5786 4.42172 25 5.43913 25 6.5H27C27 4.9087 26.3679 3.38258 25.2426 2.25736L23.8284 3.67157ZM25 6.5V12.75H27V6.5H25ZM26 11.75H1V13.75H26V11.75ZM2 12.75V6.5H0V12.75H2ZM21.625 18.625H17.875V20.625H21.625V18.625ZM13.5 13.75H26V11.75H13.5V13.75ZM25 12.75V21.5H27V12.75H25ZM25 21.5C25 22.5609 24.5786 23.5783 23.8284 24.3284L25.2426 25.7426C26.3679 24.6174 27 23.0913 27 21.5H25ZM23.8284 24.3284C23.0783 25.0786 22.0609 25.5 21 25.5V27.5C22.5913 27.5 24.1174 26.8679 25.2426 25.7426L23.8284 24.3284ZM21 25.5H13.5V27.5H21V25.5ZM14.5 26.5V12.75H12.5V26.5H14.5ZM13.5 11.75H1V13.75H13.5V11.75ZM0 12.75V21.5H2V12.75H0ZM0 21.5C0 23.0913 0.632141 24.6174 1.75736 25.7426L3.17157 24.3284C2.42143 23.5783 2 22.5609 2 21.5H0ZM1.75736 25.7426C2.88258 26.8679 4.4087 27.5 6 27.5V25.5C4.93913 25.5 3.92172 25.0786 3.17157 24.3284L1.75736 25.7426ZM6 27.5H13.5V25.5H6V27.5ZM6.08211 22.2071L7.95711 20.3321L6.54289 18.9179L4.66789 20.7929L6.08211 22.2071ZM7.95711 20.3321L9.83211 18.4571L8.41789 17.0429L6.54289 18.9179L7.95711 20.3321ZM6.54289 20.3321L8.41789 22.2071L9.83211 20.7929L7.95711 18.9179L6.54289 20.3321ZM7.95711 18.9179L6.08211 17.0429L4.66789 18.4571L6.54289 20.3321L7.95711 18.9179Z"
+                                fill="white" />
+                        </svg>
+                    </div>
+                    <p class="calc__descr section-subtitle">рассчитайте стоимость услуг</p>
                     <form action="/" method="post" class="select__form">
                         <div class="select__form-item">
                             <label>Кому нужная помощь</label>
@@ -927,74 +940,9 @@
                             и
                             родственниками.</li>
                     </ul>
-                    <div class="plus-important">
-                        <p>
-                            <span>Важно:</span> курс проводится исключительно в специализированных клиниках.
-                            Самостоятельно избавится от проблемы практически невозможно, а все попытки могут лишь
-                            усугубить состояние зависимого. Большой практический опыт позволяет нам выделить три
-                            главных
-                            составляющих успеха:
-                        </p>
-                    </div>
-                    <div class="plus__center">
-                        <div class="plus__center-item plus__center-item--big">
-                            <div class="plus__center-elem">
-                                <picture>
-                                    <source srcset="assets/img/plus/1.svg" type="image/svg+xml">
-                                    <img src="assets/img/plus/1.png" alt="Мотивация">
-                                </picture>
-                                <p>
-                                    <span>Мотивация.</span>
-                                    Если у пациента отсутствует желание отказаться от наркотиков, то проведение
-                                    любых
-                                    процедур и манипуляций не имеет смысла. Для убеждения его избавиться от тяги к
-                                    психоактивным веществам и добровольно госпитализироваться, персонал клиники
-                                    применяет особые современные методики, которые всесторонне поощряют отказ от
-                                    наркотических средств. Медперсонал определяет причины пагубной привычки,
-                                    непринужденно устраняет защитные психологические барьеры. При необходимости,
-                                    можно
-                                    сделать вызов врча-нарколога по адресу больного, который убедит его в
-                                    необходимости
-                                    лечь в больницу.
-                                </p>
-                            </div>
-                            <div class="plus__center-elem">
-                                <picture>
-                                    <source srcset="assets/img/plus/2.svg" type="image/svg+xml">
-                                    <img src="assets/img/plus/2.png" alt="Поддержка">
-                                </picture>
-                                <p>
-                                    <span>Поддержка.</span>
-                                    Когда больной будет ощущать поддержку близких, друзей, родственников его
-                                    восстановление пройдет быстрее и легче.
-                                </p>
-                            </div>
-                            <div class="plus__center-elem">
-                                <picture>
-                                    <source srcset="assets/img/plus/3.svg" type="image/svg+xml">
-                                    <img src="assets/img/plus/3.png" alt="Анонимность">
-                                </picture>
-                                <p>
-                                    <span>Анонимность.</span>
-                                    Окружающие не всегда готовы принять в свое общество зависимого, который
-                                    пролечился.
-                                    У пациента медицинского учреждения после выписки часто возникают трудности с
-                                    трудоустройством, проблемы в личной жизни. Многие из наркозависимых лиц не
-                                    желают
-                                    госпитализироваться, опасаясь огласки и передачи данных об их заболевании в
-                                    государственные органы. В клинике «Кристалл» можно пройти полный курс
-                                    восстановления
-                                    полностью анонимно. Вся информация об обратившихся в клинику людях хранится
-                                    только в
-                                    архивах учреждения и не передается третьим лицам.
-                                </p>
-                            </div>
-
-                        </div>
-                        <div class="plus__center-item">
-                            <img src="assets/img/plus/man.jpg" alt="man">
-                        </div>
-                    </div>
+                    <picture>
+                        <img src="assets/img/plus/man.jpg" alt="man">
+                    </picture>
                     <ul class="counter--reset">
                         <h6>Этапы терапии:</h6>
                         <li>Снятие абсистентного синдрома, избавления больного от физического пристрастия к
@@ -1336,10 +1284,10 @@
                 <div class="container consultations__container">
                     <div class="consultations__box" style="margin: auto;">
                         <form class="consultations__form" id="consultations__form">
-                            <h2 class="consultations-title">
+                            <p class="consultations-title">
                                 Анонимная и бесплатная
                                 консультация специалиста
-                            </h2>
+                            </p>
                             <p class="consultations-text">
                                 Опытные специалисты нашей клиники помогут найти решение именно в вашей ситуации,
                                 обратитесь прямо
@@ -1351,7 +1299,7 @@
 
                                 </label>
                                 <label class="user-input-wrp consultations__label consultations__label--row">
-                                    <input type="text" class="form--phone" placeholder="Ваш телефон" required />
+                                    <input type="tel" class="form--phone" placeholder="Ваш телефон" required />
                                 </label>
 
                                 <label class="user-input-wrp consultations__label consultations__label--row">
@@ -1372,9 +1320,9 @@
                         </form>
                         <div class="consultations__column">
                             <div class="consultations__column-transport">
-                                <h3 class="consultations__column-title">
+                                <p class="consultations__column-title">
                                     Бесплатно
-                                </h3>
+                                </p>
                                 <strong class="consultations__column-cliniki">
                                     Транспортировка до клиники
                                 </strong>
@@ -1410,8 +1358,8 @@
             <div class="container">
                 <div class="difference-inner">
                     <div class="difference-item">
-                        <h2 class="section-title">Отличия</h2>
-                        <h2 class="section-subtitle">Чем мы лучше других клиник?</h2>
+                        <p class="section-title">Отличия</p>
+                        <p class="section-subtitle">Чем мы лучше других клиник?</p>
                         <ul class="difference-list">
                             <li>Доступные цены</li>
                             <li>Собственный автопарк</li>
@@ -1434,11 +1382,11 @@
         <section class="faq section-margin element-animation">
             <div class="container">
                 <div class="faq-inner">
-                    <h2 class="section-title">F.A.Q.</h2>
+                    <p class="section-title">F.A.Q.</p>
                     <h2 class="section-subtitle">ОТВЕТЫ НА ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ</h2>
 
                     <div class="faq-item">
-                        <div class="panel-title"> Что нужно капать, чтобы вывести из запоя? <span>+</span></div>
+                        <h3 class="panel-title"> Что нужно капать, чтобы вывести из запоя? <span>+</span></h3>
 
                         <div class="faq-content panel-body">
                             <p>
@@ -1463,7 +1411,7 @@
 
                     <div class="faq-item">
 
-                        <div class="panel-title">Какие лекарства помогают выйти из запоя?<span>+</span></div>
+                        <h3 class="panel-title">Какие лекарства помогают выйти из запоя?<span>+</span></h3>
 
                         <div class="faq-content panel-body">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Nisi iure error deleniti. Nihil, ex eius voluptatibus ab quasi velit assumenda numquam
@@ -1471,8 +1419,8 @@
                     </div>
 
                     <div class="faq-item">
-                        <div class="panel-title">Как вывести человека из запоя в домашних условиях?<span>+</span>
-                        </div>
+                        <h3 class="panel-title">Как вывести человека из запоя в домашних условиях?<span>+</span>
+                        </h3>
 
                         <div class="faq-content panel-body">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Nisi iure error deleniti. Nihil, ex eius voluptatibus ab quasi velit assumenda numquam
@@ -1481,8 +1429,8 @@
 
                     <div class="faq-item">
 
-                        <div class="panel-title">Что входит в состав капельницы при выводе из запоя?<span>+</span>
-                        </div>
+                        <h3 class="panel-title">Что входит в состав капельницы при выводе из запоя?<span>+</span>
+                        </h3>
 
                         <div class="faq-content panel-body">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Nisi iure error deleniti. Nihil, ex eius voluptatibus ab quasi velit assumenda numquam
@@ -1491,7 +1439,7 @@
                 </div>
                 <section class="form__bottom element-animation">
                     <div class="form__bottom-flex">
-                        <h2 class="section-title">Остались вопросы?</h2>
+                        <p class="section-title">Остались вопросы?</p>
                         <span>Оставьте заявку для связи со специалистом</span>
                     </div>
                     <form action="/" method="post" class="intro__form form__center-inner">
@@ -1501,7 +1449,7 @@
 
                             </label>
                             <label class="user-input-wrp">
-                                <input type="text" class="form--phone" placeholder="Ваш телефон" required />
+                                <input type="tel" class="form--phone" placeholder="Ваш телефон" required />
 
                             </label>
                             <a href="#" class="gradient_btn btn__standart">Оставить заявку</a>
@@ -1522,14 +1470,14 @@
                     </div>
                     <div class="last__form-item last__form-item--flex">
                         <form action="/">
-                            <h2 class="section-subtitle">больной не хочет лечиться?</h2>
+                            <div class="section-subtitle">больной не хочет лечиться?</div>
                             <p>Берем все на себя! Убеждаем на лечение без физического и морального давления</p>
                             <div class="last__form-item__intro">
                                 <label class="user-input-wrp">
                                     <input type="text" class="form--name" placeholder="Ваше имя" required />
                                 </label>
                                 <label class="user-input-wrp">
-                                    <input type="text" class="form--phone" placeholder="Ваш телефон" required />
+                                    <input type="tel" class="form--phone" placeholder="Ваш телефон" required />
                                 </label>
                                 <button class=" btn__standart btn--white last__form-btn">Оставить заявку</button>
                                 <div class="form-personal form-policy form-policy_white">
@@ -1548,7 +1496,7 @@
                     <div class="swiper__header">
                         <div class="comment-titles">
                             <h2 class="section-title">Отзывы</h2>
-                            <h2 class="section-subtitle">истории наших пациентов</h2>
+                            <p class="section-subtitle">истории наших пациентов</p>
                         </div>
                         <div class="swiper__header-btn">
                             <div class="header__bottom-item header__bottom-item--btns">
@@ -1673,7 +1621,7 @@
                     </div>
                     <div class="comment-titles">
                         <h2 class="section-title">Отзывы</h2>
-                        <h2 class="section-subtitle">истории наших пациентов</h2>
+                        <p class="section-subtitle">истории наших пациентов</p>
                     </div>
                 </div>
             </div>
@@ -1683,8 +1631,8 @@
                 <div class="swiper-gallery swiper-my__wrapper">
                     <div class="swiper__header">
                         <div class="comment-titles">
-                            <h2 class="section-title">Фотогалерея</h2>
-                            <h2 class="section-subtitle">Посмотрите, как всё устроено</h2>
+                            <p class="section-title">Фотогалерея</p>
+                            <p class="section-subtitle">Посмотрите, как всё устроено</p>
                         </div>
                         <div class="swiper__header-btn">
                             <div class="header__bottom-item header__bottom-item--btns">
@@ -1717,8 +1665,8 @@
                         </div>
                     </div>
                     <div class="comment-titles">
-                        <h2 class="section-title">Фотогалерея</h2>
-                        <h2 class="section-subtitle">Посмотрите, как всё устроено</h2>
+                        <p class="section-title">Фотогалерея</p>
+                        <p class="section-subtitle">Посмотрите, как всё устроено</p>
                     </div>
                 </div>
             </div>
@@ -1729,7 +1677,7 @@
                     <div class="swiper__header">
                         <div class="comment-titles">
                             <h2 class="section-title">Наши врачи</h2>
-                            <h2 class="section-subtitle">Лучшие доктора</h2>
+                            <p class="section-subtitle">Лучшие доктора</p>
                         </div>
                         <div class="swiper__header-btn">
                             <div class="header__bottom-item header__bottom-item--btns">
@@ -1853,7 +1801,7 @@
                     </div>
                     <div class="comment-titles">
                         <h2 class="section-title">Наши врачи</h2>
-                        <h2 class="section-subtitle">Лучшие доктора</h2>
+                        <p class="section-subtitle">Лучшие доктора</p>
                     </div>
                 </div>
             </div>
@@ -1863,7 +1811,7 @@
                 <div class="swiper-certificate swiper-my__wrapper">
                     <div class="swiper__header">
                         <div class="comment-titles">
-                            <h2 class="section-title">Нормативные документы</h2>
+                            <p class="section-title">Нормативные документы</p>
                             <h2 class="section-subtitle">Лицензии и сертификаты</h2>
                         </div>
                         <div class="swiper__header-btn">
@@ -1927,7 +1875,7 @@
                         </div>
                     </div>
                     <div class="comment-titles">
-                        <h2 class="section-title">Нормативные документы</h2>
+                        <p class="section-title">Нормативные документы</p>
                         <h2 class="section-subtitle">Лицензии и сертификаты</h2>
                     </div>
                 </div>
@@ -1938,8 +1886,8 @@
                 <div class="map-contacts">
                     <div class="map-box">
                         <a href="/o-nas/kontakty/" class="section-title map__section-title">
-                            <h2 class="section-title">Наши контакты</h2>
-                            <h2 class="section-subtitle">Как к нам добраться?</h2>
+                            <p class="section-title">Наши контакты</p>
+                            <p class="section-subtitle">Как к нам добраться?</p>
                         </a>
                         <div class="map-title">
                             Наш адрес
@@ -2250,7 +2198,7 @@
                 <source srcset="assets/img/icon/close_popup.svg" type="image/svg+xml">
                 <img src="assets/img/icon/close_popup.png" alt="close_popup">
             </picture>
-            <h3 class="title-popup">Заполните форму и мы с вами свяжемся</h3>
+            <p class="title-popup">Заполните форму и мы с вами свяжемся</p>
             <div>
                 <input type="text" placeholder="Ваше имя" required>
                 <input type="tel" placeholder="Телефон" required>
@@ -2269,7 +2217,7 @@
                 <source srcset="assets/img/icon/close_popup.svg" type="image/svg+xml">
                 <img src="assets/img/icon/close_popup.png" alt="close_popup">
             </picture>
-            <h3 class="section-title">Заполните форму и мы с вами свяжемся</h3>
+            <p class="section-title">Заполните форму и мы с вами свяжемся</p>
             <div>
                 <input type="text" placeholder="Ваше имя" required>
                 <input type="tel" placeholder="Телефон" required>
