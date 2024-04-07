@@ -224,6 +224,10 @@ ul li {
     margin-bottom: 20px;
 }
 
+.section-subtitle:last-child {
+    margin-bottom: 0;
+}
+
 .section-margin {
     margin-bottom: 100px;
 }
@@ -4190,7 +4194,6 @@ h1 {
 
 a.btn-comment {
     padding: 13px 24px;
-    margin-right: 24px;
 }
 
 .btn-comment picture {
@@ -4249,7 +4252,8 @@ a.btn-comment {
 }
 
 .swiper__header-btn .header__bottom-item--btns>.header__bottom-item--btn {
-    margin-right: 24px;
+    padding: 5px 24px;
+    min-height: 48px;
 }
 
 .swiper__header-btn .header__bottom-item--btn picture {
@@ -4313,6 +4317,7 @@ a.btn-comment {
 
     .swiper-my__wrapper>.comment-titles {
         display: block;
+        margin-bottom: 32px;
     }
 
     .swiper-my__wrapper>.swiper__header {
@@ -4396,25 +4401,22 @@ a.btn-comment {
 }
 
 /* doctor */
+.doctor .swiper-slide {
+    height: auto;
+}
+
 .doctor-card {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
     text-align: center;
-    border: 1px solid #CADCE5;
+    border: 2px solid rgba(202, 220, 229, 1);
     padding-bottom: 24px;
     border-radius: 15px;
+    overflow: hidden;
     width: 100%;
-    max-width: 336px;
+    height: 100%;
     background-color: #ECF5FA;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    padding: 0 5px 24px;
 }
 
 .doctor-card__btn {
@@ -4423,17 +4425,17 @@ a.btn-comment {
 }
 
 .doctor-card div {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
     background-color: #fff;
-    padding-top: 20px;
     width: 100%;
-    border-bottom: 6px solid #3AB8EE;
+    border-bottom: 3px solid rgba(58, 184, 238, 1)
 }
 
 .doctor-card div img {
     display: block;
     margin: 0 auto;
+    height: 460px;
+    object-fit: cover;
+    object-position: top;
 }
 
 .doctor-card span picture {
@@ -4442,48 +4444,36 @@ a.btn-comment {
 
 .doctor-card>span:first-of-type {
     font-size: 20px;
-    font-weight: 600;
-    line-height: 1.25;
+    font-weight: 700;
+    line-height: 26px;
     padding-top: 22px;
-    padding-bottom: 15px;
+    margin-bottom: 8px;
+    color: rgba(28, 171, 62, 1);
 }
 
 .doctor-card span:nth-of-type(2) {
-    font-size: 14px;
-    line-height: 1.4;
-    padding-bottom: 10px;
-    -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 15px;
 }
 
 .doctor-card span:nth-of-type(3) {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    font-size: 14px;
-    line-height: 1.4;
-    padding-bottom: 25px;
+    flex-grow: 1;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 25px;
 }
 
 .doctor-card span:nth-of-type(3) span {
-    margin-left: 8px;
+    margin-left: 4px;
 }
 
 .doctor-card a:first-of-type {
     max-width: 84.52%;
     margin-bottom: 15px;
-}
-
-.doctor-card a:last-of-type {
-    color: #1CAB3E;
-}
-
-.doctor-card a:last-of-type:hover {
-    color: #3AB8EE;
 }
 
 .doctor-card .btn__standart {
@@ -4499,7 +4489,17 @@ a.btn-comment {
     box-shadow: 1px 1px 7px 3px rgba(7, 7, 7, 0.37);
 }
 
+.swiper-doctor {
+    overflow: hidden;
+}
+
 /* doctor MEDIA */
+@media (max-width: 1440px) {
+    .doctor-card div img {
+        height: 310px;
+    }
+}
+
 @media (max-width: 560px) {
     .doctor .swiper__header-btn .header__bottom-item--btns>.header__bottom-item--btn {
         min-width: 320px;
@@ -4524,17 +4524,29 @@ a.btn-comment {
     padding-bottom: 20px;
 }
 
+.certificate__header {
+    margin-bottom: 16px;
+}
+
+.certificate__descr {
+    margin-bottom: 30px;
+}
+
 .certificate__img img {
     -o-object-fit: cover;
     object-fit: cover;
     width: 100%;
-    max-width: 170px;
+    max-width: 232px;
     -webkit-transition: scale 0.3s linear;
     transition: scale 0.3s linear;
 }
 
 .certificate__img:hover img {
     scale: 1.1;
+}
+
+.swiper-certificate {
+    overflow: hidden;
 }
 
 @media (max-width: 850px) {

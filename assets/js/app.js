@@ -68,13 +68,11 @@ document.addEventListener('DOMContentLoaded', function () {
   if (doctorSliderCheck.length > 0) {
     doctorSliderCheck.forEach((slider) => {
       const swiper_doctor = new Swiper('.swiper-doctor', {
-        direction: 'horizontal',
         navigation: {
           nextEl: '.swiper-button-next3',
           prevEl: '.swiper-button-prev3',
         },
-        slidesPerView: 1.15,
-        spaceBetween: 24,
+        spaceBetween: 25,
         breakpoints: {
           1300: {
             slidesPerView: 5,
