@@ -37,7 +37,7 @@
     min-height: 48px !important;
     color: #fff;
     text-align: center;
-    border-radius: 50%;
+    border-radius: 8px;
 }
 
 .swiper-button-prev::after, .swiper-button-next::after {

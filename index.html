@@ -800,41 +800,38 @@
                         </svg>
                     </div>
                     <p class="calc__descr section-subtitle">рассчитайте стоимость услуг</p>
-                    <form action="/" method="post" class="select__form">
-                        <div class="select__form-item">
-                            <label>Кому нужная помощь</label>
-                            <select name="" id="">
-                                <option value="">Выбрать</option>
-                                <option value="1">Мне</option>
-                                <option value="2">Не мне</option>
-                            </select>
-                        </div>
-                        <div class="select__form-item">
-                            <label>Услуги</label>
-                            <select name="" id="">
-                                <option value="">Выбрать</option>
-                            </select>
-                        </div>
-                        <div class="select__form-item">
-                            <label>Сколько лет зависимому</label>
-                            <select name="" id="">
-                                <option value="">Выбрать</option>
-                            </select>
-                        </div>
-                        <div class="select__form-item">
-                            <label>Длительность потребления</label>
-                            <select name="" id="">
-                                <option value="">Выбрать</option>
-                            </select>
+                    <form action="#" method="post" class="select__form">
+                        <div class="select__form-wrapper">
+                            <div class="select__form-item">
+                                <label class="select__form-label">Кому нужная помощь</label>
+                                <select name="" id="" class="select__form-field">
+                                    <option value="">Выбрать</option>
+                                    <option value="1">Мне</option>
+                                    <option value="2">Не мне</option>
+                                </select>
+                            </div>
+                            <div class="select__form-item">
+                                <label class="select__form-label">Услуги</label>
+                                <select name="" id="" class="select__form-field">
+                                    <option value="">Выбрать</option>
+                                </select>
+                            </div>
+                            <div class="select__form-item">
+                                <label class="select__form-label">Сколько лет зависимому</label>
+                                <select name="" id="" class="select__form-field">
+                                    <option value="">Выбрать</option>
+                                </select>
+                            </div>
+                            <div class="select__form-item">
+                                <label class="select__form-label">Длительность потребления</label>
+                                <select name="" id="" class="select__form-field">
+                                    <option value="">Выбрать</option>
+                                </select>
+                            </div>
                         </div>
                         <div class="select__form-big">
                             <div class="select__form-item">
-                                <button class="btn__calcul btn__standart">Посчитать стоимость</button>
-                            </div>
-                            <div class="select__form-item">
-                                <label>Итог:
-                                    <span id="calcul__price">0</span>
-                                    <span>₽</span></label>
+                                <button class="btn__calcul btn__standart">Рассчитать стоимость</button>
                             </div>
                         </div>
                     </form>
@@ -1289,9 +1286,8 @@
                                 консультация специалиста
                             </p>
                             <p class="consultations-text">
-                                Опытные специалисты нашей клиники помогут найти решение именно в вашей ситуации,
-                                обратитесь прямо
-                                сейчас!
+                                Опытные специалисты нашей клиники помогут найти решение
+                                именно в вашей ситуации, обратитесь прямо сейчас!
                             </p>
                             <div class="consultations__form-box">
                                 <label class="user-input-wrp consultations__label  consultations__label--row">
@@ -1301,12 +1297,6 @@
                                 <label class="user-input-wrp consultations__label consultations__label--row">
                                     <input type="tel" class="form--phone" placeholder="Ваш телефон" required />
                                 </label>
-
-                                <label class="user-input-wrp consultations__label consultations__label--row">
-                                    <textarea required="" name="f_message" placeholder="Сообщение"
-                                        class="consultations-textarea form__focus-js"></textarea>
-                                </label>
-
                             </div>
                             <div class="consultations__form-inner">
                                 <button class="consultations__btn gradient_btn ">
@@ -1321,15 +1311,16 @@
                         <div class="consultations__column">
                             <div class="consultations__column-transport">
                                 <p class="consultations__column-title">
-                                    Бесплатно
+                                    Есть вопросы?
                                 </p>
                                 <strong class="consultations__column-cliniki">
-                                    Транспортировка до клиники
+                                    Отвечаем 24/7
                                 </strong>
                                 <p class="consultations__column-text">
-                                    К пациенту выезжает врач нарколог, применяет при необходимости, меры первичной
-                                    медицинской помощи,
-                                    затем сопровождает пациента на всем пути следования в клинику
+                                    Наши дежурные медики круглосуточно оказывают бесплатную консультацию. Просто
+                                    позвоните по номеру:
+                                    <a href="tel:89584088986">+7 (958) 408-89-86</a> или оставьте заявку на обратный
+                                    звонок! Мы тут же перезвоним
                                 </p>
                             </div>
                             <div class="consultations__column-qualit">
@@ -1337,7 +1328,8 @@
                                     24/7
                                 </strong>
                                 <p class="consultations__qualit-text">
-                                    Наша клиника работает круглосуточно
+                                    Наша клиника работает
+                                    круглосуточно
                                 </p>
                             </div>
                             <div class="consultations__column-qualit">
@@ -1345,8 +1337,8 @@
                                     100%
                                 </strong>
                                 <p class="consultations__qualit-text">
-                                    Бесплатный подбор
-                                    програмы лечения
+                                    Бесплатный подбор програмы
+                                    лечения
                                 </p>
                             </div>
                         </div>
@@ -1470,8 +1462,8 @@
                     </div>
                     <div class="last__form-item last__form-item--flex">
                         <form action="/">
-                            <div class="section-subtitle">больной не хочет лечиться?</div>
-                            <p>Берем все на себя! Убеждаем на лечение без физического и морального давления</p>
+                            <div class="last__form-title section-subtitle">больной не хочет лечиться?</div>
+                            <p class="last__form-descr">Берем все на себя! Убеждаем на лечение без физического и морального давления</p>
                             <div class="last__form-item__intro">
                                 <label class="user-input-wrp">
                                     <input type="text" class="form--name" placeholder="Ваше имя" required />
