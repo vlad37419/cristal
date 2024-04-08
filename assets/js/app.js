@@ -10,6 +10,8 @@ function initPhoneMask() {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
+  console.log('test');
+
   const jaw = document.querySelector('.jaw');
 
   const commentsSliderCheck = document.querySelectorAll('.swiper-comments');
@@ -25,11 +27,12 @@ document.addEventListener('DOMContentLoaded', function () {
           el: '.comments--pagination',
           clickable: true,
         },
-        slidesPerView: 1,
-        spaceBetween: 24,
+        slidesPerView: 1.1,
+        spaceBetween: 10,
         breakpoints: {
           850: {
             slidesPerView: 2,
+            spaceBetween: 24,
           }
         }
       });
@@ -49,20 +52,24 @@ document.addEventListener('DOMContentLoaded', function () {
           el: '.gallery--pagination',
           clickable: true,
         },
-        slidesPerView: 1,
-        spaceBetween: 24,
+        slidesPerView: 1.1,
+        spaceBetween: 10,
         breakpoints: {
           1300: {
             slidesPerView: 3,
+            spaceBetween: 24,
 
           },
           850: {
             slidesPerView: 2,
+            spaceBetween: 24,
           }
         },
       });
     });
   }
+
+  console.log('test');
 
   const doctorSliderCheck = document.querySelectorAll('.swiper-doctor');
   if (doctorSliderCheck.length > 0) {
@@ -76,21 +83,27 @@ document.addEventListener('DOMContentLoaded', function () {
         breakpoints: {
           1300: {
             slidesPerView: 5,
+            spaceBetween: 25,
           },
           1000: {
             slidesPerView: 4,
+            spaceBetween: 25,
           },
           850: {
             slidesPerView: 3,
+            spaceBetween: 12,
           },
           560: {
             slidesPerView: 2.2,
+            spaceBetween: 12,
           },
           490: {
             slidesPerView: 1.5,
+            spaceBetween: 12,
           },
-          395: {
-            slidesPerView: 1.3,
+          0: {
+            slidesPerView: 1.1,
+            spaceBetween: 12,
           },
         },
       });

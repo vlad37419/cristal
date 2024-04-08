@@ -1,7 +1,4 @@
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="SVGRepo_bgCarrier" stroke-width="0"/>
-<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
-<g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M15.8366 6.69886C16.9303 7.76766 17.5493 9.24943 17.5493 10.7989C17.5493 12.3483 16.9303 13.8301 15.8366 14.8989L11.6996 18.9989L7.56271 14.8989C6.46897 13.8301 5.84998 12.3483 5.84998 10.7989C5.84998 9.24943 6.46897 7.76766 7.56271 6.69886C9.87852 4.43371 13.5207 4.43371 15.8366 6.69886Z" stroke="#3ab8ee" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0396 10.4429C14.0311 11.0706 13.7798 11.6693 13.341 12.107C12.9021 12.5447 12.3117 12.7857 11.6996 12.7769C11.0875 12.7857 10.4971 12.5447 10.0583 12.107C9.6194 11.6693 9.36809 11.0706 9.35962 10.4429C9.3778 9.13594 10.4254 8.0915 11.6996 8.10986C12.9739 8.0915 14.0214 9.13594 14.0396 10.4429V10.4429Z" stroke="#3ab8ee" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/> </g>
-</svg>
+<svg width="15" height="17" viewBox="0 0 15 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M12.0969 2.82035C13.3122 3.96559 14 5.55332 14 7.2136C14 8.8738 13.3122 10.4616 12.0969 11.6068L7.49996 16L2.90314 11.6068C1.68781 10.4616 1 8.8738 1 7.2136C1 5.55332 1.68781 3.96559 2.90314 2.82035C5.47642 0.393216 9.52352 0.393216 12.0969 2.82035Z" stroke="#3AB8EE" stroke-width="1.625" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M10.1001 6.83214C10.0907 7.50473 9.81142 8.14624 9.32384 8.61524C8.83614 9.08424 8.18011 9.34248 7.49995 9.33305C6.8198 9.34248 6.16377 9.08424 5.67618 8.61524C5.18849 8.14624 4.90924 7.50473 4.89983 6.83214C4.92003 5.43171 6.08409 4.31258 7.49995 4.33226C8.91593 4.31258 10.0799 5.43171 10.1001 6.83214Z" stroke="#3AB8EE" stroke-width="1.625" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

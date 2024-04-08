@@ -56,7 +56,6 @@
 .swiper-comments .swiper-wrapper .swiper-slide {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    height: 320px;
 }
 
 .swiper-gallery .swiper-wrapper .swiper-slide {
@@ -65,18 +64,6 @@
 
 .swiper-comments > .swiper__header > .my--pagination {
     display: none;
-}
-
-@media (max-width: 1500px) {
-    .swiper-comments .swiper-wrapper .swiper-slide {
-        height: 380px;
-    }
-}
-
-@media (max-width: 920px) {
-    .swiper-comments .swiper-wrapper .swiper-slide {
-        height: 460px;
-    }
 }
 
 @media (min-width: 850px) {
@@ -91,8 +78,7 @@
     }
 
     .swiper-my__wrapper > .swiper__header > .my--pagination {
-        display: block;
-        position: static;
+        display: none;
     }
 }
 
